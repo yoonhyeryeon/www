@@ -1,0 +1,215 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-문화즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;문화즐기기&gt;<strong>공연&#8226;행사</strong>
+            </div>
+            <h2>공연&#8226;행사</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div class="search">
+
+                <ul>
+                    <li>기간</li>
+                    <li>
+                        <form action="#" method="post">
+                            <select name="year" id="year">
+
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                            </select>년
+
+                            <select name="month" id="month">
+
+                                <option value="12">12</option>
+                                <option value="11">11</option>
+                                <option value="10">10</option>
+                                <option value="09">09</option>
+                                <option value="08">08</option>
+                                <option value="07">07</option>
+                                <option value="06">06</option>
+                                <option value="05">05</option>
+                                <option value="04">04</option>
+                                <option value="03">03</option>
+                                <option value="02">02</option>
+                                <option value="01">01</option>
+                            </select>월
+
+                            <select name="date" id="date">
+
+
+                                <option value="31">31</option>
+                                <option value="30">30</option>
+                                <option value="29">29</option>
+                                <option value="28">28</option>
+                                <option value="27">27</option>
+                                <option value="26">26</option>
+                                <option value="25">25</option>
+                                <option value="24">24</option>
+                                <option value="23">23</option>
+                                <option value="22">22</option>
+                                <option value="21">21</option>
+                                <option value="20">20</option>
+                                <option value="19">19</option>
+                                <option value="18">18</option>
+                                <option value="17">17</option>
+                                <option value="16">16</option>
+                                <option value="15">15</option>
+                                <option value="14">14</option>
+                                <option value="13">13</option>
+                                <option value="12">12</option>
+                                <option value="11">11</option>
+                                <option value="10">10</option>
+                                <option value="09">09</option>
+                                <option value="08">08</option>
+                                <option value="07">07</option>
+                                <option value="06">06</option>
+                                <option value="05">05</option>
+                                <option value="04">04</option>
+                                <option value="03">03</option>
+                                <option value="02">02</option>
+                                <option value="01">01</option>
+                            </select>일
+
+                        </form>
+
+                    </li>
+
+                    <li>검색</li>
+
+
+                    <li>
+                        <form action="#"><input type="text">
+                            <button type="button">검색</button>
+                        </form>
+                    </li>
+
+
+
+
+
+
+
+                </ul>
+            </div>
+
+
+            <div class="poster">
+                <h3>공연일정</h3>
+                <ul>
+                    <li><img src="images/content1/mrt.jpg" alt=""></li>
+                    <li>
+                        <h4>미스터트롯</h4>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><em>기간</em></dt>
+                            <dd>2020.07.24~2020.08.09</dd>
+                            <dt><em>시간</em></dt>
+                            <dd>(금)19:30/(토),(일)14:00,19:00</dd>
+                        </dl>
+                        <dl>
+                            <dt><em>장소</em></dt>
+                            <dd>KSPO DOME(체조경기장)</dd>
+                            <dt><em>관람연령</em></dt>
+                            <dd>만7세이상</dd>
+
+
+
+
+                        </dl>
+                    </li>
+                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                </ul>
+
+
+                <ul>
+                    <li><img src="images/content1/darin.jpg" alt=""></li>
+                    <li>
+                        <h4>미스터트롯</h4>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><em>기간</em></dt>
+                            <dd>2020.07.24~2020.08.09</dd>
+                            <dt><em>시간</em></dt>
+                            <dd>(금)19:30/(토),(일)14:00,19:00</dd>
+                        </dl>
+                        <dl>
+                            <dt><em>장소</em></dt>
+                            <dd>KSPO DOME(체조경기장)</dd>
+                            <dt><em>관람연령</em></dt>
+                            <dd>만7세이상</dd>
+
+
+
+
+                        </dl>
+                    </li>
+                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                </ul>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+
+
+
+
+
+
+</body>
+
+</html>

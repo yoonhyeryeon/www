@@ -1,0 +1,217 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-공원소개</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+
+    <!-- 메인 비주얼 영역 -->
+
+    <div class="visual">
+        <img src="../sub1/common/images/main_visual02.jpg" alt="">
+
+    </div>
+
+    <!-- 서브네비영역 -->
+    <div class="subnav_box">
+
+        <div class="subNav">
+            <ul>
+                <li><a href="sub1_1.html">공원이용안내</a></li>
+                <li><a href="sub1_2.html">공원PI소개</a></li>
+                <li><a href="sub1_3.html">공원안내도</a></li>
+                <li><a class="current" href="sub1_4.html">주차안내</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;공원소개&gt;<strong>주차안내</strong>
+            </div>
+            <h2>주차안내</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div>
+                <h3>공원 주차요금 안내</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>요금</th>
+                            <th>할인</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>소형</td>
+                            <td>1시간 이내 1.000원<br>
+                                이후10분당 500원</td>
+                            <td rowspan="2">-경차, 장애인, 저공해, 국가유공자 50% 할인<br>
+                                -다자녀 우대카드 소지자 2자녀 25%, 3자녀 50%할인</td>
+                        </tr>
+                        <tr>
+                            <td>대형(24인승,2.5톤이상)</td>
+                            <td>12,000원</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div>
+
+                <img src="../sub1/images/content4/parking_1.jpg" alt="">
+                <img src="../sub1/images/content4/parking.png" alt="">
+                <p>공원 내 대형행사가 개최될 경우 선불제로 전환 및 주차장 운영시간 탄력적으로 운영<br>
+                    <span>- 선불제 전환 일정 올팍소식 게시판에 공지 <br></span>
+                    - 선불제 전환 시 소형<span> 5,000원</span> / 대형<span> 12,000원</span> 정액징수<br>
+                    ※ 선불제 전환전 입차차량은 시간제 요금인 후불제 적용
+                </p>
+                <p>출차 후 재입차 시 정상요금 징수 </p>
+                <p><span>20</span>분 이내 출차 시 무료</p>
+                <p>특별한 사유 없이 72시간 이상 차량을 방치할 경우 견인조치 될 수 있음</p>
+            </div>
+
+            <div class="month_parking">
+
+                <h3>공원 월주차 안내</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>출입문</th>
+                            <th>주차구역</th>
+                            <th>금액</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>북2/동2/남2문</td>
+                            <td>P1A,P2</td>
+                            <td>100,000원</td>
+                        </tr>
+                        <tr>
+                            <td>남3문</td>
+                            <td>소마미술관 지하주차장</td>
+                            <td>120,000원</td>
+                        </tr>
+                        <tr>
+                            <td>남4문</td>
+                            <td>남4문 주차장</td>
+                            <td>150,000원</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>주5일(월~금) 이용 가능(주말 주차시 일반 이용요금 적용)</p>
+                <p>1톤 화물 및 12인승 이하 승합/승용차량만 등록 가능</p>
+
+            </div>
+
+            <div class="parking_inform">
+
+                <h3>주요건물 인근 주차장 안내</h3>
+                <img src="../sub1/images/content4/map_olpark.jpg" alt="">
+                <ul class="tooltip_title">
+                    <li><a href="#tip1" class="tooltip_btn"><i class="fas fa-map-marker-alt"></i></a></li>
+                    <li><a href="#tip2" class="tooltip_btn"><i class="fas fa-map-marker-alt"></i></a></li>
+                    <li><a href="#tip3" class="tooltip_btn"><i class="fas fa-map-marker-alt"></i></a></li>
+                    <li><a href="#tip4" class="tooltip_btn"><i class="fas fa-map-marker-alt"></i></a></li>
+                </ul>
+
+                <div class="tooltip tool1">
+                    <ul>
+
+                        <li>주차장 번호: P4</li>
+                        <li>주차장과의 소요시간: 1분</li>
+                        <li>가능 주차대수: 172대</li>
+                        <li>입차시간: 06:00~22:00</li>
+                        <li>가장 가까운 입구: 북2문/ 동2문/ 남2문</li>
+                        <li>가장 가까운 지하철역: 5, 9호선 올림픽공원역</li>
+                    </ul>
+                </div>
+                <div class="tooltip tool2">
+
+                    <ul>
+                        <li>주차장 번호: P5</li>
+                        <li>주차장과의 소요시간: 1분</li>
+                        <li>가능 주차대수: 172대</li>
+                        <li>입차시간:06:00~22:00</li>
+                        <li>가장 가까운 입구: 북2문/ 동2문/ 남2문</li>
+                        <li>가장 가까운 지하철역: 5, 9호선 올림픽공원역</li>
+                    </ul>
+                </div>
+                <div class="tooltip tool3">
+                    <ul>
+                        <li>주차장 번호: P6</li>
+                        <li>주차장과의 소요시간: 1분</li>
+                        <li>가능 주차대수: 172대</li>
+                        <li>입차시간:06:00~22:00</li>
+                        <li>가장 가까운 입구: 북2문/ 동2문/ 남2문</li>
+                        <li>가장 가까운 지하철역: 5, 9호선 올림픽공원역</li>
+                    </ul>
+                </div>
+                <div class="tooltip tool4">
+                    <ul>
+                        <li>주차장 번호: P7</li>
+                        <li>주차장과의 소요시간: 1분</li>
+                        <li>가능 주차대수: 172대</li>
+                        <li>입차시간:06:00~22:00</li>
+                        <li>가장 가까운 입구: 북2문/ 동2문/ 남2문</li>
+                        <li>가장 가까운 지하철역: 5, 9호선 올림픽공원역</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </article>
+
+    <? include "../common/sub_foot.html" ?>
+
+    <script src="../sub1/common/js/jquery-1.12.4.min.js"></script>
+    <script src="../sub1/common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/tooltip.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+#content .grass_head{position: relative; margin-bottom: 50px}
+#content .grass_head .grass_box{width:90%; margin: 5px 15px;background:#0d8299;box-shadow:5px 5px 10px grey}
+
+
+#content .grass_head .grass_write dl dt{font-family: 'Nanumgothic',serif;padding: 10px;
+font-size: 18px; margin:20px;color: #fff; line-height: 1.5em}
+#content .grass_head .grass_write dl dd{font-family: 'dotum',serif;
+font-size: 14px;line-height: 2em; text-align: justify;
+margin-left: 10px;color:#fff; padding: 10px}
+
+
+
+#content .grass_foot{margin: 10px 5px 10px 15px}
+#content .grass_foot h3{font-family: 'Nanumgothic',serif; font-size: 18px; 
+    font-weight: 700; margin-bottom: 30px}
+#content .grass_foot ul{overflow: hidden}
+#content .grass_foot li{width:95% ; border: 1px solid #ccc;
+border-radius: 15px}
+#content .grass_foot li dt{padding: 10px}
+#content .grass_foot li dd{font-family: 'dotum',serif; font-size: 14px; line-height: 2em;
+text-align: justify;padding:10px;text-align: justify}
+#content .grass_foot li dd span:nth-of-type(1){color: #666; font-family: 'dotum',serif;
+font-size: 14px}
+#content .grass_foot li dd span:nth-of-type(2){color: crimson; font-size: 16px; font-weight: bold;
+font-family: 'dotum',serif}

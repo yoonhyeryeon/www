@@ -1,0 +1,21 @@
+#content h3{font-family: 'Nanumgothic',sans-serif; font-size: 18px;margin-left: 10px; color: #333}
+#content #outdoorgym_box{height: 600px}
+#content .outdoorgym{position: relative; margin:10px 10px}
+#content .outdoorgym img{}
+#content .outdoorgym li:nth-of-type(2){width:85%;background: #fff;position: absolute;right:5px;top: 80%;border: 1px solid #ccc}
+#content .outdoorgym li:nth-of-type(2) h4{font-family: 'Noto Sans KR',sans-serif;
+font-size: 18px; margin: 10px}
+#content .outdoorgym li:nth-of-type(2) h4:before{content: ''; display: block;
+width: 50px; height: 3px; background:#0d8299;position: absolute; left: 10px; top: 40px }
+#content .outdoorgym li:nth-of-type(2) p{font-family: 'dotum',sans-serif; font-size: 14px; line-height: 2em;text-align: justify; padding: 10px}
+
+
+
+#content #therapy_box{height: 640px}
+#content .therapy{position: relative;margin:10px 10px}
+#content .therapy li:nth-of-type(2){width:85%;background: #fff;position: absolute;left:5px;top: 80%;border: 1px solid #ccc}
+#content .therapy li:nth-of-type(2) h4{font-family: 'Noto Sans KR',sans-serif;
+font-size: 18px; margin: 10px}
+#content .therapy li:nth-of-type(2) h4:before{content: ''; display: block;
+width: 50px; height: 3px; background:#0d8299;position: absolute; left: 10px; top: 40px }
+#content .therapy li:nth-of-type(2) p{font-family: 'dotum',sans-serif; font-size: 14px; line-height: 2em;text-align: justify; padding: 10px}

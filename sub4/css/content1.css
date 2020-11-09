@@ -1,0 +1,176 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+
+#content .content_area {
+    position: relative
+}
+
+#content .content_area #nature_intro ul {
+    position: relative;
+    right: -1000px;
+    top: 0;
+    opacity: 0;
+    transition: all .8s .2s
+}
+
+#content #nature_intro ul.boxMove {
+    right: 0;
+    opacity: 1
+}
+
+#content .content_area #nature_intro li {
+    margin-bottom: 200px
+}
+
+#content .content_area #nature_intro li:nth-of-type(2) {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    z-index: -10
+}
+
+#content .content_area #nature_intro li:nth-of-type(3) {
+    position: absolute;
+    left: 850px;
+    top: 300px;
+    z-index: -20
+}
+
+#content .content_area #nature_intro li:nth-of-type(4) {
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    z-index: -20
+}
+
+
+
+#content .content_area #nature_intro .sec1 dl {
+    margin-top: 300px
+}
+
+#content .content_area #nature_intro .sec1 dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 700px;
+    line-height: 2em
+}
+
+#content .content_area #nature_intro .sec1 dl dd {
+    font-family: 'dotum', serif;
+    font-size: 20px;
+    line-height: 2em;
+    width: 600px;
+    text-align: justify
+}
+
+#content .content_area #nature_intro ul:nth-of-type(2) {
+    position: relative;
+    margin-bottom: 200px;
+    height: 430px;
+    margin-top: 300px
+}
+
+#content .content_area #nature_intro ul:nth-of-type(2) li:nth-of-type(1) img {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    box-shadow: -5px 5px 10px grey
+}
+
+#content .content_area #nature_intro ul:nth-of-type(2) li:nth-of-type(2) {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+    box-shadow: 5px 5px 10px grey
+}
+
+
+#content .content_area #nature_intro ul:nth-of-type(3) {
+    position: relative;
+    margin-bottom: 200px
+}
+
+#content .content_area #nature_intro ul:nth-of-type(3) dl {
+    margin-left: 500px;
+    margin-top: 300px
+}
+
+#content .content_area #nature_intro ul:nth-of-type(3) dl::before {
+    content: '';
+    display: block;
+    width: 600px;
+    height: 50px;
+    background: rgba(30, 193, 114, .5);
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: -30
+}
+
+
+#content .content_area #nature_intro .sec3 dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 650px;
+    line-height: 2em;
+}
+
+#content .content_area #nature_intro .sec3 dl dd {
+    font-family: 'dotum', serif;
+    font-size: 20px;
+    line-height: 2em;
+    width: 600px;
+    text-align: justify
+}
+
+#content .content_area #nature_intro ul:nth-of-type(4) {
+    position: relative;
+    position: relative;
+    margin-bottom: 170px;
+    height: 430px
+}
+
+#content .content_area #nature_intro ul:nth-of-type(4) li:nth-of-type(1) img {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    box-shadow: -5px 5px 10px grey
+}
+
+#content .content_area #nature_intro ul:nth-of-type(4) li:nth-of-type(2) {
+    position: absolute;
+    left: 600px;
+    top: 10px;
+    box-shadow: 5px 5px 10px grey
+}
+
+
+
+.text {
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-size: 50px;
+    z-index: 100
+}

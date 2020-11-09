@@ -1,0 +1,31 @@
+#content{position: relative }
+#content .parkinform{background: #3db283; height: 30px; color:#fff;text-align: center;font-family: 'Noto Sans KR',sans-serif;font-size: 15px; font-weight: 400}
+
+#content h3{font-family: 'Nanumgothic',sans-serif; font-size: 20px; margin-left: 10px;color: #333; margin-top: 25px}
+#content .use_time .menu_depth{position: relative}
+#content .use_time li.depth1{margin-top:10px;padding-left:20%;padding-top: 5px;padding-bottom: 5px;border: 1px solid #0d8299; width:70%; margin:2px auto; border-radius: 5px;background:#0d8299}
+#content .use_time li.depth1 a:nth-of-type(1){float: left;display: block; font-size: 18px; font-family: 'Nanumgothic',sans-serif; margin-left: 14%;color: #fff}
+#content .use_time li.depth1 .arrow{display: block; padding-left:80%;font-size: 30px; margin-top: -3px;color: #fff}
+#content .use_time .answer{border: 1px solid #ccc;width: 90.5%;margin:2px auto; padding: 10px; box-sizing: border-box;display: none;border-radius: 5px;}
+#content .use_time .answer li{margin-left: -144px}
+#content .use_time .answer li i{float: left; font-size: 30px;margin-left:50%}
+#content .use_time .answer li p{margin-left: 57%;}
+
+
+
+#content .park_notice{background: #3db283; height: 30px; color:#fff;text-align: center;font-family: 'Noto Sans KR',sans-serif; font-weight: 400;font-size: 15px;
+margin-top: 30px;padding-top: 5px}
+
+#content .etiquette ul{overflow: hidden}
+#content .etiquette ul li{float: left; width: 100%}
+#content .etiquette ul li i{float: left;font-size: 40px; margin:40px 20px 50px;
+padding-top: 10px}
+#content .etiquette ul li:nth-of-type(2) i{margin-bottom: 100px}
+#content .etiquette ul li p{font-family: 'dotum',sans-serif; font-size: 14px;
+line-height: 2em;margin: 30px 20px 0 0 ; text-align: justify}
+
+#content .etiquette ul li:nth-of-type(4) p{margin-top: 55px}
+
+
+
+

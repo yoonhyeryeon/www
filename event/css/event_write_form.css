@@ -1,0 +1,311 @@
+#wrap {
+    height: 100%;
+    overflow: hidden
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+.visual {
+    width: 2000px;
+    height: 425px;
+    top: 0;
+    position: relative;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden
+}
+
+.subnav_box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+.subnav_box .subNav ul {
+    width: 1200px;
+    margin: auto;
+    background: #515352;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -65px
+}
+
+.subnav_box .subNav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.subnav_box .subNav ul li a {
+    font-family: 'Nanumgothic', serif;
+    display: block;
+    padding: 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -1px
+}
+
+.subnav_box .subNav ul li a:hover {
+    background: #1f7d5c;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -1px
+}
+
+.subnav_box .subNav ul li .current {
+    background: #1f7d5c;
+    color: #fff;
+    font-weight: 700
+}
+
+
+#write_button {
+    width: 1000px;
+    margin: 0 auto 100px
+}
+
+#write_button a {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #1f7d5c;
+    color: #fff;
+    font-family: 'Nanumgothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+
+}
+
+form {
+    width: 800px;
+    margin: 100px auto
+}
+
+.write_wrap {
+    overflow: hidden;
+    width: 800px
+}
+
+.write_wrap #write_row2 {
+    overflow: hidden;
+    height: 55px;
+    border: 1px solid #ccc
+}
+
+.write_wrap #write_row2 .col1 {
+    float: left;
+    width: 150px;
+    height: 55px;
+    background: rgba(31, 125, 92, .8);
+    position: relative
+}
+
+.write_wrap #write_row2 .col1 span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff
+}
+
+.write_wrap #write_row2 .col2 {}
+
+.write_wrap #write_row2 .col2 input {
+    float: left;
+    width: 570px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+.write_wrap #write_row3 .col3 {
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    padding: 2px
+}
+
+.write_wrap #write_row4 {
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+
+}
+
+.write_wrap #write_row4 .col {
+    margin-top: 5px;
+    margin-left: 170px;
+
+}
+
+.write_wrap #write_row4 .col1 {
+    float: left;
+    width: 150px;
+    height: 400px;
+    background: rgba(31, 125, 92, .8);
+    padding-bottom: 15px;
+    position: relative
+}
+
+.write_wrap #write_row4 .col1 span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff
+}
+
+
+.write_wrap #write_row4 .col2 textarea {
+    margin-top: 5px
+}
+
+.file_wrap {
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    padding: 3px 7px 7px
+}
+
+.file_wrap .file_box {
+    overflow: hidden;
+    margin-top: 5px;
+
+
+}
+
+.file_wrap .file_box .col {
+    float: left;
+    width: 130px;
+    text-align: center;
+    padding: 5px;
+    background: rgba(13, 130, 153, .8);
+    color: #fff
+}
+
+.file_wrap .file_box .col span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 500
+}
+
+.file_wrap .file_box input {
+    margin-left: 20px
+}
+
+.delete_ok span {
+    color: #2396ba;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 500
+}
+
+.delete_ok .delete_text {
+    color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 500
+}
+
+
+/*--view.php---*/
+
+#view_comment {
+    width: 1000px;
+    height: 100%;
+    border-top: 2px solid #1f7d5c;
+    margin: 250px auto 0
+}
+
+#view_title #view_title1 {
+    overflow: hidden;
+    width: 1000px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 5px 0 15px 0
+}
+
+
+#view_content .view_list {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    width: 1000px;
+    margin: 30px auto 50px;
+    padding-bottom: 20px
+}
+
+#view_title #view_title1 li:nth-of-type(1) {
+    width: 600px;
+    margin-left: 30px
+}
+
+#view_title #view_title1 > li {
+    font-family: 'Nota sans KR', sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+
+#view_content .view_list li {
+    width: 800px;
+    line-height: 1.5em;
+   text-align: justify;
+    margin: 30px
+}
+
+#view_content .view_list li h4 {
+
+    font-family: 'Nanumgothic', serif;
+    font-size: 35px;
+    margin: 15px 0 15px 0px
+}
+
+#view_button {
+    margin-bottom: 100px
+}
+
+#view_button a {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #1f7d5c;
+    color: #fff;
+    font-family: 'Nanumgothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+}

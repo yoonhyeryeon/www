@@ -1,0 +1,68 @@
+#content{width: 1200px; margin: 0 auto;position:relative}
+
+#content .title_area{}
+#content .title_area h2{font-family: 'Nanumgothic', serif; font-size: 60px; 
+    font-weight: 400; margin-top: 110px; margin-left: 415px}
+#content .title_area .lineMap{position: absolute;left:480px;top:130px}
+#content .content_area .symbol_mark{position: relative;
+margin-bottom: 170px}
+#content .content_area .symbol_mark h3{font-family: 'Nanumgothic',serif;font-size: 30px;margin: 170px 0 20px 65px}
+#content .content_area .symbol_mark h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute;left:55px; top:0 }
+
+#content .content_area .symbol_mark img{width: 500px; height: 200px;
+padding: 10px; margin-left: 350px; margin-bottom: 40px  }
+#content .content_area .symbol_mark p{font-family:'dotum',serif;
+                    font-size: 16px; line-height: 1.5em; padding-left:50px; padding-right: 50px; text-align: justify}
+#content .content_area .signature{position: relative; overflow: hidden}
+#content .content_area .signature h3{font-family: 'Nanumgothic',serif;font-size: 30px;
+float: right; margin-right:450px; margin-top: 10px}
+
+#content .content_area .signature h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute; right:570px; top:6px} 
+#content .content_area .signature img{margin-left: 70px;float: left}
+#content .content_area .signature p{float: left; font-family:'dotum',serif;
+                    font-size: 16px; line-height: 1.5em;text-align: justify;
+    width: 500px;margin-left:40px; margin-top: 180px}
+
+#content .content_area .logotype{margin-top: 170px; overflow: hidden;
+position: relative}
+#content .content_area .logotype h3{font-family: 'Nanumgothic',serif;font-size: 30px;
+float: right; margin-right:450px; margin-top: 10px}
+#content .content_area .logotype h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute; right:570px; top:6px} 
+#content .content_area .logotype img{margin-left: 70px;float: left}
+#content .content_area .logotype p{float: left; font-family:'dotum',serif;
+                    font-size: 16px; line-height: 1.5em;text-align: justify;
+    width: 500px;margin-left:40px; margin-top: 230px}
+
+#content .content_area .color_system{overflow: hidden; position: relative}
+#content .content_area .color_system h3{font-family: 'Nanumgothic',serif;font-size: 30px;margin: 170px 0 20px 65px}
+#content .content_area .color_system h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute;left:55px; top:165px }
+#content .content_area .color_system p{margin-left:55px; font-family:'dotum',serif;font-size: 16px; line-height: 1.5em}
+
+#content .content_area .color_system ul{overflow: hidden; margin-bottom: 170px;
+margin-top: 30px ;width: 900px;margin-left: 170px}
+
+#content .content_area .color_system li{float: left;margin-left: 55px; width: 150px; height: 150px;border-radius: 50%;margin-bottom: 30px}
+#content .content_area .color_system li:nth-of-type(1){background:#bfcd31}
+#content .content_area .color_system li:nth-of-type(2){background:#6dc067}
+#content .content_area .color_system li:nth-of-type(3){background:#50b848}
+#content .content_area .color_system li:nth-of-type(4){background:#00b259}
+#content .content_area .color_system li:nth-of-type(5){background:#337c61;
+margin-left: 150px}
+#content .content_area .color_system li:nth-of-type(6){background:#63cae1 }
+#content .content_area .color_system li:nth-of-type(7){background:#34c3e0 }
+
+
+#content .content_area .color_system li p{font-family: 'roboto',serif;font-size: 12px; text-align: center;
+color: #fff; margin-top: 50px; margin-left: 20px; line-height: 2em; float: left}
+
+
+
+
+
+
+
+
+
+
+
+

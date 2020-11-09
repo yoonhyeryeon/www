@@ -1,0 +1,67 @@
+#content{width: 1200px; margin: 0 auto;position:relative}
+
+#content .title_area{}
+#content .title_area h2{font-family: 'Nanumgothic', serif; font-size: 60px; 
+    font-weight: 400; margin-top: 110px; margin-left: 450px; margin-bottom: 200px}
+#content .title_area .lineMap{position: absolute;left:480px;top:130px}
+
+#content .content_area div{position: relative}
+
+#content .content_area h3{font-family: 'Nanumgothic',serif;font-size: 30px;margin: 170px 0 20px 65px}
+#content .content_area h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute;left:55px; top:0}
+
+
+#content .content_area div table{margin:auto; width: 900px; 
+    height: 150px} 
+
+#content .content_area div tr th{width: auto;border: 1px solid #ccc; 
+    font-family: 'Nanumgothic',serif; font-size: 15px;padding: 5px;background:#0d8299;
+color: #fff; font-weight: 400;font-weight: 700}
+#content .content_area div tr td{width:auto; font-family:'Nanumgothic',serif; font-size: 15px;border: 1px solid #ccc; text-align: center}
+
+#content .content_area div tr td:nth-of-type(3){text-align:justify;
+padding-left: 50px}
+
+
+#content .content_area div:nth-of-type(2){margin-top: 20px;margin-left: 150px  ;width: 900px; height: 300px; overflow: hidden; border: 1px solid #ccc}
+
+#content .content_area div p::before{content: "";display: block;width: 5px; height: 5px; background: #000;position: absolute; margin-top: 5px; margin-left:-10px}
+#content .content_area div:nth-of-type(2) p{font-family: 'dotum',serif; font-size: 14px; 
+    margin-left: 70px; line-height: 1.5em; float: left; width: 450px;
+margin-top: 10px}
+#content .content_area div:nth-of-type(2) p:nth-of-type(1){margin-top: 50px}
+#content .content_area div img{width: 300px; height: 300px; float: left}
+#content .content_area div img:nth-of-type(2){width: 100px; height: 100px; 
+    position: absolute; left: 100px; top:100px}
+#content .content_area div p:nth-of-type(1) span:nth-of-type(1){color: #f00}
+#content .content_area div p:nth-of-type(1) span:nth-child(n+3):nth-child(-n+4){font-weight: bold;color: #0d8299}
+#content .content_area div p:nth-of-type(3) span{font-weight: bold;color: #0d8299}
+
+#content .content_area .month_parking{margin-top: 0;position: relative}
+#content .content_area .month_parking h3{font-family: 'Nanumgothic',serif;font-size: 30px;margin: 170px 0 20px 65px}
+#content .content_area .month_parking>h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute;left:55px; top:0}
+#content .content_area .month_parking>table td:nth-of-type(3){text-align: center; padding: 0}
+#content .content_area .month_parking p{margin-left: 160px;
+margin-top: 10px}
+
+
+#content .content_area .parking_inform{margin-bottom: 170px;margin-top:0;overflow: hidden}
+#content .content_area .parking_inform h3{font-family: 'Nanumgothic',serif;font-size: 30px;margin-bottom:20px;margin-left:65px}
+#content .content_area .parking_inform h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute;left:55px; top:170px}
+#content .content_area .parking_inform ul{overflow:hidden}
+
+#content .content_area .parking_inform li{float: left} 
+#content .content_area .parking_inform li img{width: 700px; height: 500px; margin-left: 60px}
+#content .content_area .parking_inform li table{width: 300px}
+#content .content_area .parking_inform li:nth-of-type(2){width: 300px; margin-left: 50px; margin-top: 330px}
+
+
+
+
+
+
+
+
+
+
+

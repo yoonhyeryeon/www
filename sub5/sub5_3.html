@@ -1,0 +1,115 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-역사즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;역사즐기기&gt;<strong>주변유적지안내</strong>
+            </div>
+            <h2>주변유적지안내</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div>
+                <h3>한성백제박물관</h3>
+                <p>시민들과 함께 한성백제문화를 공존하고 공유하며 소통하기 위해 노력하는 한성백제박물관</p>
+                <img src="images/content3/museum2.jpg" alt="">
+
+            </div>
+
+            <section class="museum_info">
+
+                <h4>관람안내</h4>
+
+                <ul class="accordion">
+                    <li class="question hide">
+                        <dl>
+                            <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>평일관람 시간은?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                            <dd class="answer">
+                                <p><span>A</span> 오전 9시~오후 9시</p>
+
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="question hide">
+                        <dl>
+                            <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>토,일 공휴일 관람 시간은?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                            <dd class="answer">
+                                <p><span>A</span> 오전 9시~오후 7시(단,11~2월 : 오전 9시~오후 6시)</p>
+
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="question hide">
+                        <dl>
+                            <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>휴관일은 언제인가요?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                            <dd class="answer">
+                                <p><span>A</span> 매주 월요일, 1월 1일, 시장이 정하는 휴관일(관장에게 위임)</p>
+                                <p>단, 월요일이 공휴일인 경우 휴관하지 않습니다.</p>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="question hide">
+                        <dl>
+                            <dt class="q"><a class="trigger" href="#javascript:void(0)"><span>Q</span>관람료는 얼마인가요?<em><i class="fas fa-arrow-circle-up"></i></em></a></dt>
+                            <dd class="answer">
+                                <p><span>A</span>관람료는 무료입니다.</p>
+
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+
+            </section>
+
+
+
+
+        </div>
+
+    </article>
+    <? include "../common/sub_foot.html" ?>
+
+    <script src="js/qna.js"></script>
+
+
+
+
+</body>
+
+</html>

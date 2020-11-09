@@ -1,0 +1,25 @@
+#content h3{font-family: 'Nanumgothic',sans-serif; font-size: 18px;margin-left: 10px; color: #333}
+
+
+
+#content{overflow: hidden; margin: 10px 0 10px 0}
+#content .rose_pic p{font-family: 'dotum',serif;
+font-size: 20px; text-align: center; line-height: 2em; margin-bottom: 50px}
+#content .rose_pic{margin-top:80px; margin-bottom: 100px}
+#content .gallery{overflow: hidden;position:relative}
+#content .gallery li{float: left}
+#content .rose_pic li img{}
+
+#content .rose_wri{position: relative}
+#content .rose_wri dl{width:90%;margin: auto}
+#content .rose_wri dl::before{content: ''; display: block;
+width: 10px; height: 10px; background: #0d8299; position: absolute;
+left: 18px;top: 0}
+
+#content .rose_wri dl dt{font-family: 'Nanumgothic',serif;line-height: 1.5em;
+font-size: 18px;margin-left: 20px; margin-bottom: 30px}
+#content .rose_wri dl dd{font-family: 'dotum',serif;
+font-size: 14px; margin-bottom: 20px; color: #666;line-height: 2em; text-align:justify}
+#content .rose_wri dl dd span{color: #0d8299}
+
+#content .rose_wri dl dd:nth-of-type(1){font-weight: 700;color:#333}

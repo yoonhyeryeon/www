@@ -1,0 +1,108 @@
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>올림픽공원</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/main.css">
+ <link rel="stylesheet" href="css/content3.css">
+ 
+<script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+<script src="../js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+ <? include "../common/sub_head.html" ?>
+ 
+ 
+ 
+ 
+<article id="content">
+
+<h3>공원영상</h3>
+
+<div class="video_box">
+     
+       <video id="testVideo" poster="images/content3/pi2.jpg" controls>
+           <source src="images/content3/video1.mp4" type="video/mp4">
+            
+       </video>
+      
+     </div>
+
+<div class="video_list">
+    
+   
+     <ul> 
+      <li>
+         
+          <a class="video" href="images/content3/video1.mp4" title="올림픽공원영상2" onclick="changeVideo(this);return false">
+             <img src="images/content3/video_1.jpg" alt="영상포스터">
+             <p>올림픽공원 스케이트</p>
+         </a> 
+        <!--<dl>
+            <dt>올림픽공원 스케이트장 개장식 홍보영상</dt>
+            <dd>2018 KSPO 이사장배 아이스하키 꿈나무 우승팀 시범경기</dd>
+        </dl>-->
+          
+      </li>
+      <li>
+         
+          <a class="video" href="images/content3/video2.mp4" title="올림픽공원영상2" onclick="changeVideo(this);return false">
+              <img src="images/content3/video_2.jpg" alt="영상포스터"> 
+              <p>올림픽공원 수영장</p>
+          </a> 
+          <!-- <dl>
+            <dt>올림픽수영장</dt>
+            <dd>수영, 아쿠아로빅, 스피닝바이크, 헬스, 벨리댄스, 라인댄스, 펜싱교실 등
+            15개 종목 운영</dd>
+        </dl> -->
+      </li>
+      <li>
+        
+          <a class="video" href="images/content3/video3.mp4" width="800" height="480" title="올림픽공원영상3" onclick="changeVideo(this);return false"> 
+             <img src="images/content3/video_3.jpg" alt="영상포스터">
+             <p>올림픽공원 스케이트장</p>
+          </a>
+        <!--  <dl>
+            <dt>올림픽스케이트장 개장식</dt>
+            <dd>2015년 2월8일까지 운영 각종 먹거리 매장 운영 오전 9시부터 저녁 8시30분까지 운영 초보자를 위한 스케이트 강습 진행</dd>
+        </dl> -->
+      
+      </li>
+  </ul>
+       </div> 
+
+
+
+</article>
+  <? include "../common/sub_foot.html" ?>
+  <!--스크립트-->
+<script src="js/movie.js"></script>
+   
+    </body>
+    </html>

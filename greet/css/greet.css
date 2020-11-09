@@ -1,0 +1,266 @@
+#wrap {
+    height: 100%;
+    overflow: hidden
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+.visual {
+    width: 2000px;
+    height: 425px;
+    top: 0;
+    position: relative;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden
+}
+
+.subnav_box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+.subnav_box .subNav ul {
+    width: 1200px;
+    margin: auto;
+    background: #515352;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -65px
+}
+
+.subnav_box .subNav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.subnav_box .subNav ul li a {
+    font-family: 'Nanumgothic', serif;
+    display: block;
+    padding: 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -1px
+}
+
+.subnav_box .subNav ul li a:hover {
+    background: #1f7d5c;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -1px
+}
+
+.subnav_box .subNav ul li .current {
+    background: #1f7d5c;
+    color: #fff;
+    font-weight: 700
+}
+
+#col2 {
+    width: 1000px;
+    height: 100%;
+    margin: 200px auto
+}
+
+.list_search {
+    overflow: hidden
+}
+
+.list_search li {
+    float: left;
+    margin-top: 20px
+}
+
+/*.list_search .list_total{margin-left: 20px; font-family: 'Nanumgothic',sans-serif; font-size: 14px}*/
+.list_search li:nth-of-type(1) {
+    margin-left: 20px
+}
+
+.list_search li:nth-of-type(2) {
+    margin-left: 530px
+}
+
+.list_search li:nth-of-type(2) p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.list_search li:nth-child(n+2) {
+    margin-right: 10px
+}
+
+.list_search li select {
+    width: 50px;
+    height: 25px
+}
+
+.list_search li:nth-of-type(4) input {
+    height: 20px;
+    padding-left: 5px
+}
+
+form {
+    border-bottom: 2px solid #1f7d5c;
+    padding-bottom: 20px
+}
+
+#list_top_title {
+    margin-top: 20px
+}
+
+#list_top_title .list_title {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px
+}
+
+#list_top_title ul li {
+    float: left
+}
+
+#list_top_title ul li:nth-of-type(1) {
+    margin-left: 30px;
+    margin-right: 200px
+}
+
+#list_top_title ul li:nth-of-type(2) {
+    margin-left: 200px
+}
+
+#list_top_title ul li:nth-of-type(3) {
+    margin-left: 200px
+}
+
+#list_top_title ul li:nth-of-type(4) {
+    margin-left: 130px
+}
+
+#list_top_title ul li:nth-of-type(5) {
+    float: right;
+    margin-right: 50px
+}
+
+#list_content #list_item {}
+
+
+
+#page_button {
+    width: 500px;
+    margin: 30px auto
+}
+
+#page_button #page_num {
+    text-align: center
+}
+
+#page_button #button a {
+    display: block;
+    float: right;
+    margin-right: -100px;
+    width: 60px;
+    height: 30px;
+    background: #1f7d5c;
+    color: #fff;
+    font-family: 'Nanumgothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+    box-shadow: 0 1px 4px 1px gray
+}
+
+
+/*--view.php--*/
+
+#view_comment {
+    width: 1000px;
+    height: 100%;
+    border-top: 2px solid #1f7d5c;
+    margin: 250px auto 0
+}
+
+#view_title #view_title1 {
+    overflow: hidden;
+    width: 1000px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 5px 0 15px 0
+}
+
+
+#view_content .view_list {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    width: 1000px;
+    margin: 30px auto 50px;
+    padding-bottom: 20px
+    
+
+}
+#view_title #view_title1 li:nth-of-type(1){width: 600px; margin-left: 10px}
+
+#view_title #view_title1 > li {
+    font-family: 'Nota sans KR',sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-right: 40px;
+
+}
+
+
+#view_content .view_list li{margin-top: 30px
+   
+
+
+}
+
+#view_content .view_list li h4 {
+
+    font-family: 'Nanumgothic', serif;
+    font-size: 35px;
+    margin: 15px 0 15px 0px
+}
+
+#view_button {
+    margin-bottom: 100px
+}
+
+#view_button a {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #1f7d5c;
+    color: #fff;
+    font-family: 'Nanumgothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+}

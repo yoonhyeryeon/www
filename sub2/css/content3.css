@@ -1,0 +1,190 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+#content .content_area {
+    position: relative
+}
+
+
+
+
+
+#content .content_area dl {
+    margin-top: 300px;
+    margin-left: 200px
+}
+
+#content .content_area dl::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 30px;
+    background: rgba(13, 125, 92, .4);
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    z-index: -10
+}
+
+
+#content .content_area dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 25px;
+    font-weight: 700
+}
+
+#content .content_area dl dd {
+    font-family: 'dotum', serif;
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: 15px
+}
+
+
+#content .content_area .outdoorgym {
+    position: relative
+}
+
+#content .content_area .outdoorgym li h4 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #0d8299;
+    border-top: 1px solid #ccc;
+    padding-top: 20px
+}
+
+#content .content_area .outdoorgym li h4::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 10px;
+    background: #1f7d5c;
+    position: absolute;
+    left: 50px;
+    top: 65px
+}
+
+#content .content_area .outdoorgym li:nth-of-type(2) {
+    position: absolute;
+    left: 60px;
+    top: 300px
+}
+
+#content .content_area .outdoorgym li img {
+    margin-left: 50px;
+    margin-top: 100px
+}
+
+#content .content_area ul li:nth-of-type(2) {
+    font-family: 'dotum', serif;
+    font-size: 18px;
+    line-height: 2em;
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px 1px gray;
+    background: #fff
+}
+
+
+
+
+
+
+#content .content_area .therapy {
+    margin-top: 100px;
+    position: relative
+}
+
+#content .content_area .therapy img {
+    margin-top: 100px;
+    margin-left: 600px
+}
+
+#content .content_area .therapy li:nth-of-type(2) {
+    position: absolute;
+    left: -350px;
+    top: 300px;
+    width: 650px
+}
+
+#content .content_area .therapy li h4 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #0d8299;
+    border-top: 1px solid #ccc;
+    padding-top: 20px
+}
+
+#content .content_area .therapy li h4::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 10px;
+    background: #1f7d5c;
+    position: absolute;
+    left: 50px;
+    top: 65px
+}
+
+#content .content_area div:last-child {
+    margin-top: 500px;
+    margin-bottom: 170px
+}
+
+#content .content_area div:last-child img {
+    opacity: .9
+}
+
+#content .content_area div:last-child ul {
+    position: relative
+}
+
+#content .content_area div:last-child ul::after {
+    content: "";
+    display: block;
+    width: 1200px;
+    height: 300px;
+    background: rgba(31, 125, 92, .6);
+    position: absolute;
+    right: -40px;
+    top: -50px;
+    z-index: -20
+}
+
+#content .content_area div:last-child ul li:nth-of-type(2) {
+    width: 900px;
+    height: 30px;
+    background: #fff;
+    position: absolute;
+    left: -300px;
+    top: 250px
+}
+
+#content .content_area div:last-child li p {
+    font-family: 'Nanumgothic', serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700
+}

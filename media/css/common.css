@@ -1,0 +1,130 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family:'돋움', Dotum; font-size:16px; color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden,#skipNav{display: block;position: absolute;left: -1000%;top: 0; width: 1px; height: 1px; overflow: hidden}
+
+.hidden,#skipNav{display: block;position: absolute;left: -1000%;top: 0; width: 1px; height: 1px; overflow: hidden}
+
+
+/*헤더공통*/
+#headerArea{position:fixed; z-index: 30; height: 100px
+	;left:0; top: 0;width: 100%;background: rgba(0,0,0,.8)}	
+#headerArea	.headerInner{width: 90%; margin:0 5%;
+	  overflow: hidden}
+#headerArea h1{ float: left; margin-top: 15px}
+#headerArea h1 a{color: #fff; display: block;width:69px; 
+    height: 74px; background: url(../images/logo_small_03.png) no-repeat}	
+#headerArea #gnb{float: right;margin-top: 25px}
+#headerArea #gnb ul{overflow: hidden; height: 50px}
+#headerArea #gnb ul li{float: left; margin-right: 15px;}
+#headerArea #gnb ul li a{display: block;color: #fff; text-decoration: none;font-size: 30px; padding: 20px 20px; font-family:'Bebas Neue',sans-serif}
+
+#headerArea .menuOpen{position:absolute; right:25px; top:25px; color: #fff; font-size: 30px; display:none}
+
+
+
+
+
+/*푸터공통*/
+#footerArea{background: #333 ;height: 300px;margin-top: 100px;position: relative}
+#footerArea img{display: table;padding-top: 70px ;margin-left:  auto ;margin-right: auto}
+#footerArea p{font-family: 'Roboto',sans-serif;font-size: 18px;margin: 40px 0;color: #fff;text-align: center}
+
+.toTop { position: absolute; top: -30px; left: 50%; margin-left: -45px; background-color: #333; border-radius: 90px; z-index: 10; }
+.toTop a { display: block; width: 90px; height: 90px; color: #fff; line-height: 90px;font-family:'Bebas Neue',sans-serif;text-align: center; font-size: 30px}
+.toTopAni { animation: toTop 0.6s both; }
+#footerArea .toTopAni:hover { animation: toTop 1s infinite; }
+@keyframes toTop {
+  0% { transform: scale3d(1, 1, 1); }
+  30% { transform: scale3d(0.75, 1.25, 1); }
+  40% { transform: scale3d(1.25, 0.75, 1); }
+  50% { transform: scale3d(0.85, 1.15, 1); }
+  65% { transform: scale3d(1.05, 0.95, 1); }
+  75% { transform: scale3d(0.95, 1.05, 1); }
+  100% { transform: scale3d(1, 1, 1); }
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    
+    #footerArea img{margin: 70px auto 0}
+    
+    
+}
+    
+/* 테블릿 */
+@media screen and (max-width:1024px){
+  
+#footerArea p{font-size: 16px}
+}
+    
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #headerArea{
+      height: 80px; background: rgba(0,0,0,.8); left:0; top: 0; width: 100%
+    }
+    #headerArea	.headerInner{width: auto; margin:0 4%}
+
+    #headerArea h1 {
+        float: left; 
+        margin-top: 15px}
+
+    #headerArea h1 a {
+        display: block;
+        
+        background-size:50px
+    }
+    
+    #headerArea .menuOpen{
+        display: block;
+        position: absolute;
+        right:24px; 
+        top: 23px; color: #fff
+    }
+    
+	#headerArea #gnb{
+    position: absolute;
+        top:80px;
+        left:0; 
+        width:100%;
+        padding:10px 0; 
+        margin-top: 0;
+        background:rgba(0,0,0,.8); 
+        text-align: center; display: none
+    }
+    
+    #headerArea #gnb ul{height: 100%;padding:0 5%}
+    #headerArea #gnb ul li{
+        float:none; width:100%; margin-right: 0
+    }
+
+    #headerArea #gnb ul li a {
+       display: block; font-size:30px; padding:10px 0}
+    #footerArea p{font-size: 14px}
+    
+    
+}
+
+    
+
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    #footerArea p{margin: 20px;font-size: 14px}
+  
+}

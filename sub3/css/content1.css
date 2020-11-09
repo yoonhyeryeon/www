@@ -1,0 +1,67 @@
+#content{width: 1200px; margin: 0 auto;position:relative}
+#content .title_area h2{font-family: 'Nanumgothic', serif; font-size: 60px; 
+    font-weight: 400; margin-top: 110px; text-align: center}
+#content .title_area .lineMap{position: absolute;left:500px;top:130px}
+
+
+#content .content_area .search{margin: 300px 150px 0 150px; width: 900px;height:200px;border: 1px solid #ccc; background: #f0f2f0}
+
+#content .content_area .search ul{overflow: hidden; position: relative}
+#content .content_area .search ul li{font-family: 'Nanumgothic',serif;
+    font-size: 18px; font-weight: 700;margin-top: 50px; margin-left: 100px}
+#content .content_area .search ul li:nth-of-type(1)::after{content: "";display: block; width: 1px; height: 20px; background: #999; position: absolute;left: 190px;top:50px }
+#content .content_area .search ul li:nth-of-type(2){font-family: 'dotum',serif;
+font-size: 14px;  margin-left: 250px ; margin-top: -20px; }
+ 
+#content .content_area .search ul li:nth-of-type(3){margin-top: 50px; margin-left: 100px;float: left }
+#content .content_area .search ul li:nth-of-type(3)::after{content: "";display: block; width: 1px; height: 20px; background: #999; position: absolute;left: 190px;top:123px}
+
+#content .content_area .search ul li input{margin-top: -150px; margin-left: 115px}
+
+
+
+
+
+
+
+
+
+#content .content_area .poster{margin-top: 170px;position: relative;overflow: hidden; margin-bottom:170px; border-bottom: 1px solid #ccc;padding: 20px}
+#content .content_area .poster h3{font-family: 'Nanumgothic',serif; font-size: 40px;font-weight: normal; margin-left:40px}
+#content .content_area .poster h3::before{content: "";display: block; width: 5px;height:20px; background:#1f7d5c; position: absolute;left: 40px ; top:20px}
+
+#content .content_area .poster ul:nth-of-type(1){ border-bottom: 1px solid #ccc;padding: 20px}
+#content .content_area .poster li{float: left}
+#content .content_area .poster li img{margin-left: 40px; margin-top: 50px}
+#content .content_area .poster h4{margin-top: 50px;
+   margin-left: 70px; font-family: 'Nanumgothic',serif; font-size: 30px; }
+
+
+#content .content_area .poster dl{float: left; margin-top: 100px; line-height: 2em; padding: 30px}
+
+#content .content_area .poster dl:nth-of-type(1) dt em{font-family:'dotum',serif; font-size: 16px; font-weight: bold; font-style:normal;
+margin-left: 50px;float: left; margin-top: 20px}
+#content .content_area .poster dl:nth-of-type(1) dd{font-family: 'dotum',serif; font-size: 14px;margin-left: 100px;margin-top: 20px}
+#content .content_area .poster dl:nth-of-type(2) dt em{font-family:'dotum',serif; font-size: 16px; font-weight: bold; font-style:normal;
+margin-left: 50px;float: left;margin-top: 20px}
+#content .content_area .poster dl:nth-of-type(2) dd{font-family: 'dotum',serif; font-size: 14px;margin-left: 150px;margin-top: 20px}
+#content .content_area .poster ul:nth-of-type(1) li a i{font-size: 70px;position: absolute ;right: 40px; top: 200px;color: #ccc}
+#content .content_area .poster ul:nth-of-type(1) li a:hover i{color: #000;transform: rotate( 382deg )}
+
+
+
+#content .content_area .poster ul:nth-of-type(2){ border-bottom: 1px solid #ccc;padding: 20px; margin-top: 300px}
+#content .content_area .poster ul:nth-of-type(2) li a i{font-size: 70px;position: absolute ;right: 40px; top: 550px;color: #ccc}
+#content .content_area .poster ul:nth-of-type(2) li a:hover i{color: #000;transform: rotate( 382deg )}
+
+	
+
+
+
+
+
+
+
+
+
+

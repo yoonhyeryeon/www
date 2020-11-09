@@ -1,0 +1,84 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+#content .content_area .sculpture {
+    margin-top: 300px;
+    margin-bottom: 170px
+}
+
+#content .content_area .sculpture dl {
+    text-align: center
+}
+
+#content .content_area .sculpture dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 25px;
+    margin-bottom: 20px
+}
+
+#content .content_area .sculpture dl dd {
+    font-family: 'dotum', serif;
+    font-size:
+        18px
+}
+
+
+#content .content_area .sculpture_pic ul {
+    position: relative
+}
+
+#content .content_area .sculpture_pic ul li {
+    position: absolute
+}
+
+#content .content_area .sculpture_pic ul li img {
+    border-radius: 15px
+}
+
+#content .content_area .sculpture_pic ul li:nth-of-type(1) {
+    left: 200px;
+    top: 35px
+}
+
+#content .content_area .sculpture_pic ul li:nth-of-type(2) {
+    left: 606px;
+    top: 24px
+}
+
+#content .content_area .sculpture_pic ul li:nth-of-type(3) {
+    right: 40px;
+    top: 420px
+}
+
+#content .content_area .sculpture_pic ul li:nth-of-type(4) {
+    left: 700px;
+    top: 1020px
+}
+
+#content .content_area .sculpture_pic ul li:nth-of-type(5) {
+    left: 200px;
+    top: 620px
+}
+
+#content .content_area .sculpture_pic ul li:nth-of-type(6) {
+    left: 200px;
+    top: 1020px;
+    margin-bottom: 170px
+}

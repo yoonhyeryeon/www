@@ -1,0 +1,136 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-체육즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;체육즐기기&gt;<strong>산책&#8226;조깅 코스</strong>
+            </div>
+            <h2>산책&#8226;조깅 코스</h2>
+
+        </div>
+
+        <div class="content_area">
+
+
+            <ul>
+                <li><img src="images/content2/park_walk.jpg" alt=""></li>
+                <li>
+                    <dl>
+                        <dt>올림픽공원의 참모습 다섯개의 산책길과 조깅코스</dt>
+                        <dd>몽촌토성을 중심으로 43만평의 올림픽공원에는 호반의 길,
+                            토성의 길, 추억의 길, 연인의 길 그리고 젊음의 길로 산책 및 조깅 코스로 구성되어 각 코스마다 올림픽공원의 참못브을 즐길 수 있습니다.</dd>
+
+                        <dd>마음의 평정과 삶의 여유를 느낄 수 있어 주변에 있는 직장인들이 아주 좋아하는 코스 ‘호반의 길’, 유명한 ‘깔딱고개’가 있어 조금 힘이들지만 확트인 백제유적과 잔디밭을 내려다 볼 수 있어 가족간의 사랑을 느낄 수 있는 ‘토성의 길’, 몽촌토성을 중심을 기점으로 두 개의 원을 그리는 추억의 길은 조용히 사색하면 산책할 수 있는 늦가을에 잘 어울리는 코스이며 88호수 주변과 몽촌토성 주변을 도는 연인들이 다정하게 거닐기 좋은 코스 ‘연인의 길’, 마지막으로 젊음의 길은 올림픽공원 외곽을 돌아보는 코스로 각종 마라톤대회나 달리기대회의 장소로 널리 쓰이고 있기 때문에 땀을 쭉 빼며 달리는 사람들이 좋아하는 코스입니다.</dd>
+
+                    </dl>
+                </li>
+            </ul>
+
+            <h3>산책&#8226;조깅코스</h3>
+            <div class="tabs">
+
+
+
+                <img class="contlist" src="images/content2/hoban.jpg" alt="">
+                <img class="contlist" src="images/content2/tosung.jpg" alt="">
+                <img class="contlist" src="images/content2/chuk.jpg" alt="">
+                <img class="contlist" src="images/content2/couple.jpg" alt="">
+                <img class="contlist" src="images/content2/young.jpg" alt="">
+
+                <ul>
+
+                    <li><a class="tab tab1" href="#javascrip:void(0)"><i class="fas fa-water"></i>호반의 길</a></li>
+                    <li><a class="tab tab2" href="#javascrip:void(0)"><i class="fab fa-fort-awesome"></i>토성의 길</a></li>
+                    <li><a class="tab tab3" href="#javascrip:void(0)"><i class="fas fa-leaf"></i>추억의 길</a></li>
+                    <li><a class="tab tab4" href="#javascrip:void(0)"><i class="fas fa-handshake"></i>연인의 길</a></li>
+                    <li><a class="tab tab5" href="#javascrip:void(0)"><i class="fas fa-child"></i>젊음의 길</a></li>
+                </ul>
+
+
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>거리(M)</th>
+                            <th>범례</th>
+                        </tr>
+
+                        <tr>
+                            <td>호반의 길</td>
+                            <td>1,302m</td>
+                            <td>평화의광장 → 곰말다리 → 소마미술관 → 평화의광장</td>
+                        </tr>
+                        <tr>
+                            <td>토성의 길</td>
+                            <td>2,210m</td>
+                            <td>몽촌토성순환로</td>
+                        </tr>
+                        <tr>
+                            <td>추억의 길</td>
+                            <td>3,350m</td>
+                            <td>곰말다리 → 몽촌토성 중심 → 움집터전시관 → 야생화학습장 → 몽촌토성 순환 → 피크닉장 → 곰말다리</td>
+                        </tr>
+                        <tr>
+                            <td>연인의 길</td>
+                            <td>4,290m</td>
+                            <td>곰말다리 → 몽촌토성 중심 → 서울역사편찬원 → 88마당 → 삼거리매점 → 몽촌토성 중심 → 피크닉장 → 소마미술관 → 평화의광장 → 곰말다리</td>
+                        </tr>
+                        <tr>
+                            <td>젊음의 길</td>
+                            <td>3,150m</td>
+                            <td>자전거 순환도로</td>
+                        </tr>
+
+                    </thead>
+
+                </table>
+            </div>
+
+        </div>
+    </article>
+    <? include "../common/sub_foot.html" ?>
+
+
+    <script src="js/tab2.js"></script>
+
+</body>
+
+</html>

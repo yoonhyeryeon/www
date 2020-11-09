@@ -1,0 +1,85 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-문화즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;문화즐기기&gt;<strong>올림픽홀 평생교육원</strong>
+            </div>
+            <h2>올림픽홀 평생교육원</h2>
+
+        </div>
+
+        <div class="content_area">
+
+
+
+            <div>
+                <ul>
+
+
+                    <li> <img src="images/content2/edu1.jpg" alt=""></li>
+                    <li>
+                        <dl>
+                            <dt>올림픽홀 평생교육원</dt>
+                            <dd>그냥 오래 사는 것과 건강하게 오래 사는 것이 다르듯,
+                                악기 하나 다룰 줄 아는 삶과 그렇지 않은 삶은 확연히 다릅니다.
+                                음악과 함께하는 풍요롭고 활기찬 삶을 꿈꾼다면,
+                                지금도 늦지 않았습니다. 정서적 위안과 놀라운 치유 효과를
+                                지닌 음악을 통해 생활에 활력을 더하고 행복을 연주하는 법!
+                                올림픽홀 평생교육원에서 직접 체험해 보세요.</dd>
+                        </dl>
+                    </li>
+                </ul>
+                <a href="http://edu.ksponco.or.kr/?sid=a7" target="_blank" title="평생교육원사이트바로가기">
+                    <div><span>평생교육원
+                        </span><i class="fas fa-long-arrow-alt-right"></i></div>
+                </a>
+            </div>
+
+
+        </div>
+    </article>
+    <? include "../common/sub_foot.html" ?>
+
+
+
+
+
+
+</body>
+
+</html>

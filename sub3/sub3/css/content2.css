@@ -1,0 +1,89 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+
+#content .content_area div {
+    margin-top: 300px;
+    margin-bottom: 170px;
+    border: 1px solid #ccc;
+    height: 426px;
+    position: relative;
+    overflow: hidden
+}
+
+
+
+
+#content .content_area div img {
+    float: left
+}
+
+#content .content_area div ul li dl {
+    float: right;
+    width: 500px
+}
+
+#content .content_area div ul li dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 25px;
+    margin: 50px 0 15px -15px
+}
+
+#content .content_area div ul li dl dd {
+    font-family: 'dotum', serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2em;
+    margin: 20px 30px 0 -30px;
+}
+
+
+#content .content_area div a {}
+
+#content .content_area div a div span {
+    font-family: 'Nanumgothic', serif;
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: #fff
+}
+
+#content .content_area div a div {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+    background: #1f7d5c;
+    margin: 0
+}
+
+#content .content_area div a div i {
+    margin-left: 100px;
+    margin-top: 12px;
+    font-size: 25px;
+    color: #fff
+}
+
+#content .content_area div a:hover div i {
+    transform: translate(10px, 0)
+}

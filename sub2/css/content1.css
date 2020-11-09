@@ -1,0 +1,211 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+#content .content_area {
+    overflow: hidden;
+    position: relative
+}
+
+#content .content_area .gallery {
+    overflow: hidden;
+    position: relative;
+    margin-top: 300px;
+    width: 2400px
+}
+
+#content .content_area .gallery li {
+    float: left
+}
+
+#content .content_area li img {
+    width: 1200px
+}
+
+
+#content .content_area ul:nth-of-type(2) li dl {
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+#content .content_area ul:nth-of-type(2) li dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 25px;
+    font-weight: 700
+}
+
+#content .content_area ul:nth-of-type(2) li dd {
+    font-family: 'dotum', serif;
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: 30px
+}
+
+#content .content_area div {
+    background: #1f7d5c;
+    width: 1200px;
+    height: 100px;
+    position: relative
+}
+
+#content .content_area div p {
+    color: #fff;
+    font-family: 'Nanumgothic', serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px
+}
+
+#content .content_area div select {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    width: 200px;
+    height: 30px
+}
+
+#content .content_area .sports_1 {
+    width: 1198px;
+    height: 300px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, .2);
+    border: 1px solid #ccc
+}
+
+#content .content_area .sports_1 img {
+    float: left;
+    margin-right: 50px;
+    height: 300px
+}
+
+#content .content_area .sports_1 h3 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 50px
+}
+
+#content .content_area .sports_1 p {
+    font-family: 'dotum', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2em;
+    color: #000;
+    padding: 30px;
+    text-align: justify
+}
+
+
+#content .content_area .sports_2 {
+    width: 1198px;
+    height: 300px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, .2);
+    border: 1px solid #ccc
+}
+
+#content .content_area .sports_2 img {
+    float: left;
+    margin-right: 50px;
+    height: 300px
+}
+
+#content .content_area .sports_2 h3 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 50px
+}
+
+#content .content_area .sports_2 p {
+    font-family: 'dotum', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2em;
+    color: #000;
+    padding: 20px;
+    text-align: justify
+}
+
+
+
+#content .content_area .sports_3 {
+    width: 1198px;
+    height: 300px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, .2);
+    border: 1px solid #ccc
+}
+
+#content .content_area .sports_3 img {
+    float: left;
+    margin-right: 50px;
+    height: 300px
+}
+
+#content .content_area .sports_3 h3 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 50px
+}
+
+#content .content_area .sports_3 p {
+    font-family: 'dotum', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2em;
+    color: #000;
+    padding: 20px;
+    text-align: justify
+}
+
+
+
+#content .content_area .sports_4 {
+    width: 1198px;
+    height: 300px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, .2);
+    border: 1px solid #ccc;
+    margin-bottom: 170px
+}
+
+#content .content_area .sports_4 img {
+    float: left;
+    margin-right: 50px;
+    height: 300px
+}
+
+#content .content_area .sports_4 h3 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 50px
+}
+
+#content .content_area .sports_4 p {
+    font-family: 'dotum', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2em;
+    color: #000;
+    padding: 20px;
+    text-align: justify
+}

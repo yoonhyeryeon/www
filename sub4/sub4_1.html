@@ -1,0 +1,144 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-문화즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content1.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;생태즐기기&gt;<strong>생태공원소개</strong>
+            </div>
+            <h2>생태공원소개</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div id="nature_intro">
+                <ul class="sec1">
+                    <li>
+                        <dl>
+                            <dt>올림픽공원을 방문하는 사람들에게 이들 자연의 친구들은 자연이 주는 행복감을 전달하며, 녹색 평화의 메시지를 전하고 있습니다.</dt>
+                            <dd>일련의 환경복원 사업을 꾸준히 추진함으로써 흰뺨검둥오리, 후투티, 왜가리, 쇠백로, 중대백로, 해오라기, 검은댕기해오라기, 꾀꼬리, 뻐꾸기, 소쩍새, 꿩, 청설모, 다람쥐, 개구리, 밀잠자리, 나비 등이 집단으로 서식할 뿐만 아니라 최근에는 도심에서 쉽게 볼 수 없는 딱따구리, 누룩뱀, 너구리가 발견되고 맹꽁이떼의 울음소리가 들리는 등 생태복원의 가시적인 성과가 나타나고 있습니다.</dd>
+                        </dl>
+                    </li>
+
+                    <li><img src="images/content1/bar1.jpg" alt=""></li>
+                    <li><img src="images/content1/bar2.jpg" alt=""></li>
+                    <li><img src="images/content1/bar3.jpg" alt=""></li>
+                </ul>
+                <ul class="sec2">
+                    <li><img src="images/content1/rabbit.jpg" alt=""></li>
+                    <li><img src="images/content1/duck.jpg" alt=""></li>
+                </ul>
+                <ul class="sec3">
+                    <li>
+                        <dl>
+                            <dt>자연과 인간의 공존을 꿈꾸다</dt>
+                            <dd>선사문명과 화려한 백제 문명을 꽃피웠던 터전이 자연과 인간이 공존하는 생태공원으로 변신했습니다. 바로 자연과 하나되는 환경생태공원, 올림픽공원입니다.</dd>
+
+                        </dl>
+                    </li>
+                </ul>
+                <ul class="sec4">
+                    <li><img src="images/content1/squirrel.jpg" alt=""></li>
+                    <li><img src="images/content1/racoon.jpg" alt=""></li>
+
+                </ul>
+            </div>
+
+
+
+            <div class="text">0</div>
+        </div>
+
+    </article>
+
+
+
+    <? include "../common/sub_foot.html" ?>
+
+
+    <script>
+        $(document).ready(function() {
+
+
+
+            $('#nature_intro ul:eq(0)').addClass('boxMove');
+            //첫번째 내용글 애니메이션 처리
+
+            //스크롤의 좌표가 변하면.. 스크롤 이벤트
+            $(window).on('scroll', function() {
+                var scroll = $(window).scrollTop();
+                //스크롤top의 좌표를 담는다
+
+                $('.text').text(scroll);
+                //스크롤 좌표의 값을 찍는다.
+
+                //스크롤의 거리의 범위를 처리
+                if (scroll >= 320 && scroll < 900) {
+
+
+                    $('#nature_intro ul:eq(0)').addClass('boxMove');
+                    //첫번째 내용 콘텐츠 애니메이
+                } else if (scroll >= 900 && scroll < 1500) {
+
+
+                    $('#nature_intro ul:eq(1)').addClass('boxMove');
+                } else if (scroll >= 1500 && scroll < 2000) {
+
+                    $('#nature_intro ul:eq(2)').addClass('boxMove');
+                } else if (scroll >= 2000) {
+
+                    $('#nature_intro ul:eq(3)').addClass('boxMove');
+                }
+
+
+
+
+            });
+
+
+        });
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

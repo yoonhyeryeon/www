@@ -1,0 +1,114 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-체육즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content4.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=4;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;체육즐기기&gt;<strong>스케이트장</strong>
+            </div>
+            <h2>스케이트장</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div class="gallery_box">
+                <img src="images/content4/ice.jpg" alt="">
+                <ul>
+                    <li>
+
+                        <dl>
+                            <dt>올림픽공원 겨울철 명소 올림픽 스케이트장</dt>
+                            <dd>올림픽공원의 스케이트장에서 즐겁고 안전하게 스케이트를 즐길 수 있도록 강습프로그램을 운영하고 있습니다.</dd>
+                        </dl>
+                    </li>
+                </ul>
+                <div class="gallery_box_container">
+
+
+                    <ul class="new1">
+                        <li>
+                            <dl>
+                                <dt>야외스케이트장 운영안내</dt>
+                                <dd>안녕하세요.올림픽공원 스케이트장 입니다.
+                                    2019~2020시즌 올림픽공원 스케이트장의 운영됩니다.</dd>
+                                <dd>운영기간: 2020.12.~ 2010.2. (장소)올림픽 공원 평화의 광장 문의전화:02)555-8878</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <ul class="new2">
+                        <li>
+                            <dl>
+                                <dt>1회차 강습 및 일일입장 안내</dt>
+                                <dd>안녕하세요.올림픽공원 스케이트장 입니다.</dd>
+
+                                <dd>금일 1회차 강습 및 일일입장 정상 운영 합니다.이용에 착오 없으시길 바랍니다.</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <ul class="new3">
+                        <li>
+                            <dl>
+                                <dt>야외스케이트장 안내</dt>
+                                <dd>안녕하세요. 올림픽공원 스케이트장 입니다.</dd>
+                                <dd>금일 우천으로 인하여 부득이하게 9회, 10회차는 운영중단 됨을 알려드립니다.이용에 참고 하시길 바랍니다.감사합니다.</dd>
+                            </dl>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <span class="num"><strong>1</strong>/3</span>
+
+                <a href="#btn1">
+                    <i class="fas fa-caret-square-left leftBtn"></i>
+                </a>
+                <a href="#btn2">
+                    <i class="fas fa-caret-square-right RightBtn"></i>
+                </a>
+                <a href="http://olympicpark.kspo.or.kr/jsp/homepage/contents/sports/skate_main.jsp" target="_blank" title="스케이트이용정보사이트"><i class="fas fa-info-circle"></i></a>
+            </div>
+        </div>
+    </article>
+    <? include "../common/sub_foot.html" ?>
+
+
+    <script src="js/arrow.js"></script>
+
+</body>
+
+</html>

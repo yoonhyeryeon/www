@@ -1,0 +1,405 @@
+/*----list.php css----*/
+
+#wrap {
+    height: 100%;
+    overflow: hidden
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+.visual {
+    width: 2000px;
+    height: 425px;
+    top: 0;
+    position: relative;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden
+}
+
+.subnav_box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+.subnav_box .subNav ul {
+    width: 1200px;
+    margin: auto;
+    background: #515352;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -65px
+}
+
+.subnav_box .subNav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.subnav_box .subNav ul li a {
+    font-family: 'Nanumgothic', serif;
+    display: block;
+    padding: 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -1px
+}
+
+.subnav_box .subNav ul li a:hover {
+    background: #1f7d5c;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -1px
+}
+
+.subnav_box .subNav ul li .current {
+    background: #1f7d5c;
+    color: #fff;
+    font-weight: 700
+}
+
+#col2 {
+    width: 1000px;
+    height: 100%;
+    margin: 200px auto
+}
+
+.#col2 .date_wrap{ 
+    
+    
+}
+#col2 .date_wrap form{
+    width: 330px;
+    border-bottom: 2px solid #0d8299;
+    margin: 0 auto 100px;
+    padding:15px 0 15px 10px
+}
+
+#col2 .date_wrap #datepicker{width: 150px; height: 30px; margin-right: 10px}
+
+#col2 .date_wrap #search_button {
+    width: 50px;
+    height: 30px;
+    padding-bottom: 3px;
+}
+#col2 .date_wrap form label{
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px
+}
+
+.list_search {
+    overflow: hidden
+}
+
+.list_search li {
+    float: left;
+    margin-top: 20px
+}
+
+/*.list_search .list_total{margin-left: 20px; font-family: 'Nanumgothic',sans-serif; font-size: 14px}*/
+.list_search li:nth-of-type(1) {
+    margin-left: 20px
+}
+
+.list_search li:nth-of-type(2) {
+    margin-left: 530px
+}
+
+.list_search li:nth-of-type(2) p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.list_search li:nth-child(n+2) {
+    margin-right: 10px
+}
+
+.list_search li select {
+    width: 50px;
+    height: 25px
+}
+
+.list_search li:nth-of-type(4) input {
+    height: 20px;
+    padding-left: 5px
+}
+
+form:nth-child(2) {
+    border-bottom: 2px solid #1f7d5c;
+    padding-bottom: 20px
+}
+
+#list_top_title {
+    margin-top: 20px
+}
+
+#list_top_title .list_title {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px
+}
+
+#list_top_title .list_title > li {
+    float: left
+}
+
+#list_top_title .list_title > li:nth-of-type(1) {
+    margin-left: 30px;
+    margin-right: 80px
+}
+
+#list_top_title .list_title > li:nth-of-type(2) {
+    margin-left: 150px
+}
+
+#list_top_title .list_title > li:nth-of-type(3) {
+    margin-left: 420px
+}
+
+#list_top_title .list_title > li:nth-of-type(4) {
+    margin-left: 80px
+}
+
+#list_top_title .list_title > li:nth-of-type(5) {
+    float: right;
+    margin-right: 30px
+}
+
+
+#page_button {
+    width: 500px;
+    margin: 30px auto
+}
+
+#page_button #page_num {
+    text-align: center
+}
+
+#button a {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #1f7d5c;
+    color: #fff;
+    font-family: 'Nanumgothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+
+}
+
+#list_content .perform_list {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    height: 340px
+}
+
+#list_content .perform_list li {
+    padding: 30px;
+    float: left
+}
+
+#list_content .perform_list li img {
+    width: 218px;
+    height: 280px
+}
+
+#list_content .perform_list li a h4 {
+
+    font-family: 'Nanumgothic', serif;
+    font-size: 35px;
+    margin: 15px 0 15px 0px
+}
+
+#list_content .perform_list li a h4:hover {
+    color: #1f7d5c
+}
+
+#list_content .perform_list li dl {
+    float: left;
+    ;
+    margin-top: 40px;
+    width: 900px
+}
+
+#list_content .perform_list li dl:nth-of-type(1) {
+
+    margin: -235px 0 0 280px;
+}
+
+#list_content .perform_list li dl:nth-of-type(2) {
+    margin: -235px 0 0 630px;
+}
+
+#list_content .perform_list li dt {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 23px;
+
+}
+
+#list_content .perform_list li dd {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    margin: 20px 200px 20px 5px;
+    font-weight: 300
+}
+
+/*---- view.php ----*/
+
+#view_comment {
+    width: 1000px;
+    height: 100%;
+    border-top: 2px solid #1f7d5c;
+    margin: 250px auto 0
+}
+
+#view_title #view_title1 {
+    overflow: hidden;
+    width: 1000px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 5px 0 15px 0
+}
+
+#view_content .view_list {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    height: 340px;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#view_title #view_title1 > li {
+    font-family: 'Nota sans KR', sans-serif;
+    font-size: 16px;
+    float: left;
+    margin-right: 40px;
+
+}
+
+#view_title #view_title1 > li:nth-of-type(1) {
+    margin-left: 630px
+}
+
+#view_content .view_list li {
+    padding: 30px;
+    float: left;
+
+
+}
+
+#view_content .view_list li img {
+    width: 218px;
+    height: 280px;
+
+
+}
+
+#view_content .view_list li h4 {
+
+    font-family: 'Nanumgothic', serif;
+    font-size: 35px;
+    margin: 15px 0 15px 0px
+}
+
+#view_content .view_list li dl {
+    float: left;
+    ;
+    margin-top: 40px;
+    width: 900px
+}
+
+#view_content .view_list li dl:nth-of-type(1) {
+
+    margin: -235px 0 0 280px;
+}
+
+#view_content .view_list li dl:nth-of-type(2) {
+    margin: -235px 0 0 630px;
+}
+
+#view_content .view_list li dt {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 23px;
+
+}
+
+#view_content .view_list li dd {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 20px 200px 20px 5px
+}
+
+#view_content .content_out {
+    width: 1000px;
+    height: 100%;
+    margin: 70px auto;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #ccc
+}
+
+#view_content .content_out .content_in {
+    width: 1000px;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+    line-height: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px
+}
+
+#view_content .content_out .img_box {
+    text-align: center
+}
+
+#view_button {
+    margin-bottom: 100px
+}
+
+#view_button a {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    background: #1f7d5c;
+    color: #fff;
+    font-family: 'Nanumgothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+}

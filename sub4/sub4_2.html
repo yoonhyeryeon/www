@@ -1,0 +1,150 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-문화즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content2.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;생태즐기기&gt;<strong>잔디시설안내</strong>
+            </div>
+            <h2>잔디시설안내</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div class="grass_head">
+                <img src="images/content2/grass.jpg" alt="">
+                <ul class="grass_box">
+
+                    <li class="grass_write">
+                        <dl>
+                            <dt>시민들과 함께 하는 올림픽공원 잔디시설</dt>
+                            <dd>올림픽공원 잔디의 훼손을 예방하고 방문객들에게 보다 고품질의 잔디공간을 제공하기 위하여 잔디광장의 지역별 순환개방을 실시하고 있습니다.</dd>
+                            <dd>올림픽공원은 피크닉장, 가족놀이동산, 나홀로나무, 88마당, 지구촌공원, 소마시술관 등을 개방함으로써 도심속의 자연을 만끽하실 수 있습니다.</dd>
+                        </dl>
+
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="grass_body">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>잔디시설 개방기간</dt>
+                            <dd>피크닉장, 가족놀이동산, 나홀로나무 : <span>연중 상시개방</span></dd>
+                            <dd>88마당, 지구촌공원, 소마미술관 전시마당 :<span> 6. 1 〜 10. 31</span></dd>
+                            <dd>어린이날(5월 5일) <span>임시 개방</span></dd>
+                        </dl>
+                    </li>
+
+                </ul>
+
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>잔디통제시기</dt>
+                            <dd>신초발아 시기 및 잔디 휴면기<span>(11. 1 ~ 익년 5. 31)</span></dd>
+                            <dd>우천시 및 비온 후 3일 이내</dd>
+                            <dd>훼손지역 잔디복구를 위한 회복시기</dd>
+                            <dd>기타 특별한 상황발생시 잔디마당의 출입을 통제합니다.</dd>
+
+                        </dl>
+
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="grass_foot">
+
+                <h3>잔디마당 출입시 주의사항</h3>
+                <ul>
+                    <li>
+                        <dl>
+
+                            <dt><img src="images/content2/caution1.png" alt=""></dt>
+                            <dd>토성사면 미끄럼타기 및 개방지역내에서는 운동(공놀이, 자전거 타기, 롤러타기, 줄다리기 등)을 삼가해 주세요.<br>
+                                취사 및 음주, 사행성(도박)행위를 하지 맙시다.<br>
+                                잔디를 훼손하는 행위를 하지 맙시다.<br>
+                                <span>그늘막, 텐트 설치 행위/ 인라인스케이트, 자전거 타는 행위/ 골프, 축구, 야구, 족구 등 운동</span><br>
+                                잔디밭에 애완동물은 출입할 수 없습니다. (배설물로 인한 선충류 감염 방지)<br>
+                                쓰레기는 반드시 되가져 갑시다.<br>
+
+                                <span>출입금지 기간: 11.1~익년5.31</span>
+                            </dd>
+                        </dl>
+
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+    </article>
+    <? include "../common/sub_foot.html" ?>
+
+    <script>
+        $(document).ready(function() {
+            $('.grass_box').addClass('boxMove');
+
+            $(window).on('scroll', function() {
+                var scroll = $(window).scrollTop();
+                //스크롤top의 좌표를 담는다
+
+
+                if (scroll >= 0 && scroll < 900) {
+                    $('.grass_box').addClass('box_move')
+                }
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

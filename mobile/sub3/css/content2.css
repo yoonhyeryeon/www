@@ -1,0 +1,43 @@
+#content .intro_box{margin-top: 30px;height: 200px; padding: 10px; background: rgba(0,0,0,.7); }
+/*#content .intro_box h3{font-family: 'Nanumgothic',sans-serif; font-size: 18px;margin-left: 10px; color: #333}*/
+
+#content .intro_box ul{border:1px solid #fff; height: 200px}
+
+#content .intro_box dl{position: relative}
+
+#content .intro_box dt{font-family: 'Noto San KR',sans-serif; font-size: 18px; text-align: center; color: #fff;
+line-height: 2em; margin-top: 20px}
+
+#content .intro_box dd::before{content:"";display: block;width: 2px; 
+height: 10px;background:#fff;
+position:absolute; left: 50%;top: 43%; margin-left: -1px;margin-top: -5px}
+
+#content .intro_box dd{font-family: 'dotum',sans-serif;
+line-height: 2em; color: #fff; text-align: center;padding:15px 10px}
+
+#content .olympic_museum{margin: 50px 10px;position: relative}
+#content .olympic_museum h4{font-family: 'Nanumgothic',sans-serif; font-size: 18px;margin-bottom: 20px}
+#content .olympic_museum p{font-family: 'dotum',sans-serif; font-size: 14px;line-height: 2em;text-align: justify; margin-bottom: 30px}
+
+/*#content .olympic_museum p::after{content: '';display: block;width: 5px; height:50px; background:#0d8299; position: absolute; right:10px;top:30% ;margin-top:  50px;}*/
+
+
+#content .soma_museum{margin: 50px 10px;position: relative}
+
+#content .soma_museum h4{font-family: 'Nanumgothic',sans-serif; font-size: 18px;margin-bottom: 30px}
+#content .soma_museum p{font-family: 'dotum',sans-serif; font-size: 14px;line-height: 2em;text-align: justify; margin-bottom: 30px}
+/*#content .soma_museum p::after{content:''; display: block; width: 40px; height: 5px; background:#0d8299;
+position: absolute;left: 40%;top: 60%; margin-left: -20px; margin-top:180px}*/
+
+
+#content .short_cut a div{width: 150px; height: 30px; border-radius: 30px;background: #1f7d5c; margin:10px auto}
+#content .short_cut a{display: block}
+
+#content .short_cut a div span{font-family: 'Nanumgothic',serif;font-size: 16px;color: #fff;
+padding:5px 15px;float: left}
+#content .short_cut a div i{padding: 3px;
+font-size: 25px; color: #fff}
+
+
+
+

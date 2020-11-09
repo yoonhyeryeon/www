@@ -1,0 +1,46 @@
+#content{width: 1200px; margin: 0 auto;position:relative}
+
+#content .title_area{}
+#content .title_area h2{font-family: 'Nanumgothic', serif; font-size: 60px; 
+    font-weight: 400; margin-top: 110px; margin-left: 415px}
+#content .title_area .lineMap{position: absolute;left:480px;top:130px}
+#content .content_area .map_name{margin-top: 170px}
+#content .content_area .map_name ul{width: 900px; height: 35px; margin:auto;overflow: hidden; background:#0d8299}
+#content .content_area .map_name ul li{float: left;width: 25%}
+#content .content_area .map_name ul li a{display: block;text-align: center;
+                       font-family:'Nanumgothic',serif; font-size: 18px; color: #fff;padding: 5px;height: 25px}
+#content .content_area .map_name ul li a:hover{background:#69e0f7; color:#fff}
+
+#content .content_area .map{}
+#content .content_area .map ul{width: 1300px; height: 600px;
+margin-top: 40px;margin-bottom: 2500px}
+ 
+#content .content_area .map ul li{ border: 1px solid #ccc; overflow: hidden}
+#content .content_area .map ul li img{float: left}
+#content .content_area dl{float: left; line-height:2em;column-count: 2}
+#content .content_area dl dt{font-family: 'Nanumgothic',serif; font-size: 18px;
+ margin-bottom: 15px;font-weight: bold}
+#content .content_area dl dt dd{font-family: 'dotum',serif; font-size: 14px}
+
+#content .content_area ul li:nth-of-type(1) dl{column-gap: 55px; margin-top: 70px;margin-left: 50px}
+#content .content_area ul li:nth-of-type(2) dl{margin-top: 35px;margin-left: 50px;
+column-gap: 100px}
+#content .content_area ul li:nth-of-type(3) dl{margin-top: 35px;margin-left: 50px;
+column-gap: 55px}
+#content .content_area ul li:nth-of-type(4) dl{margin-left: 50px; column-gap: 30px;
+    margin-top: 100px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

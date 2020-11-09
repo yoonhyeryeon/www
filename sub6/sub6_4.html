@@ -1,0 +1,112 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>올림픽공원-고객센터</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content4.css">
+
+
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	8f1b7e7bd8760e1f696f50013e7b2420"></script>
+
+
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <!-- 메인 비주얼 영역 -->
+
+
+
+    <!-- 서브네비영역 -->
+    <? $_GET['num']=4;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;고객센터&gt;<strong>오시는길</strong>
+            </div>
+            <h2>오시는길</h2>
+
+        </div>
+
+        <div class="content_area">
+
+            <div id="map"></div>
+
+            <div class="subway">
+                <h3>지하철이용안내</h3>
+                <ul>
+                    <li><i class="fas fa-subway"></i></li>
+                    <li><span>지하철 8호선</span> - 몽촌토성역 1번 출구</li>
+                    <li><span>지하철 5호선</span> - 올림픽공원역 3번 출구</li>
+                    <li><span>지하철 9호선</span> - 올림픽공원역 3번 출구, 한성백제역 2번 출구</li>
+                </ul>
+
+            </div>
+            <div class="bus">
+                <h3>버스이용안내</h3>
+                <ul>
+                    <li><i class="fas fa-bus"></i></li>
+                    <li>동2문지하철/5,9호선 올림픽공원역 - 3214,3220,3319,3412,3413,30-5,6300</li>
+                    <li>남2문밸로드롬 입구 - 3216,3412,3413,3414,30,30-5 </li>
+
+                </ul>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </article>
+    <? include "../common/sub_foot.html" ?>
+    <script>
+        var container = document.getElementById('map');
+        var options = {
+            center: new kakao.maps.LatLng(37.519891, 127.122667),
+            level: 4
+        };
+
+        var map = new kakao.maps.Map(container, options);
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

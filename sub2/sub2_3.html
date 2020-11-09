@@ -1,0 +1,103 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>올림픽공원-체육즐기기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content3.css">
+
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+</head>
+
+<body>
+    <? include "../common/sub_head.html" ?>
+    <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+
+ ?>
+
+    <!-- 본문 콘텐츠 영역 -->
+    <article id="content">
+        <div class="title_area">
+            <div class="lineMap">
+                <span>HOME</span>&gt;체육즐기기&gt;<strong>생활건강시설</strong>
+            </div>
+            <h2>생활건강시설</h2>
+
+        </div>
+
+        <div class="content_area">
+
+
+
+
+
+
+            <div>
+                <dl>
+                    <dt>건강 도우미, 올림픽공원 생활건강시설 </dt>
+                    <dd>도시생활환경에 앞장서는 올림픽공원에서는 생활건강시설을 이용하여 휴식과 건강을 동시에 즐길 수 있습니다.</dd>
+                </dl>
+            </div>
+
+            <ul class="outdoorgym">
+                <li><img src="images/content3/outdoorgym.jpg" alt=""></li>
+                <li>
+                    <h4>간이체육시설</h4>
+                    <p>올림픽공원 곳곳에는 조깅 또는 산책을 하다가 가볍게 이용할 수 있는 간이체육시설이 설치되어 있습니다.
+
+                        산책로 주요거점을 중심으로 분산형과 집합형의 형태로 요소요소에 배치하여 체력단련을 위한 코스로 활용하실 수 있습니다. 건강한 정신은 건강한 신체에서 나온다는 말처럼, 자연이 숨쉬는 올림픽공원에서 건강한 몸과 마음을 만들어 가시기 바랍니다.</p>
+                </li>
+            </ul>
+
+
+            <ul class="therapy">
+                <li><img src="images/content3/therapy.jpg" alt=""></li>
+                <li>
+                    <h4>건강지압로</h4>
+                    <p>올림픽공원에 건강 지압로가 조성되어 내방객들의 큰 호응을 얻고 있습니다.
+
+                        공원 내 평화의 광장 좌측 느티나무 하단부에 위치한 지압로는 총연장 53.4m의 태극문양 순환형으로 조성되었으며, 특히 중앙부에는 타 지압로와는 다르게 황토볼을 이용해 지압공간을 설치, 지압효과가 탁월한 것으로 알려졌다. 또한 2006년 생활체육공간으로 리노베이션한 만남의 광장에는 길이 150m 구간에 직선형태의 건강지압로가 조성되어 있습니다.</p>
+                </li>
+
+
+
+
+            </ul>
+
+            <div>
+                <ul>
+                    <li><img src="images/content3/tree.jpg" alt=""></li>
+
+                    <li>
+                        <p>올림픽공원에서는 휴식과 건강을 동시에 즐길 수 있습니다.</p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </article>
+    <? include "../common/sub_foot.html" ?>
+
+</body>
+
+</html>

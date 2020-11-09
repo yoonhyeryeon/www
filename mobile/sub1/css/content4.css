@@ -1,0 +1,23 @@
+#content .head_box h3{background: #3db283; height: 30px; color:#fff;padding: 0; margin-left: 0}
+#content .head_box h3{text-align: center;font-family: 'Noto Sans KR',sans-serif; font-weight: 400;font-size: 18px;color: #fff}
+#content  #map{width: 300px; height: 300px; border: 1px solid #ccc;
+margin: 50px auto}
+
+#content section:nth-of-type(1){margin-top: 50px}
+#content section:nth-of-type(2){margin-top: 130px}
+#content .subway ul{height: 150px; margin-top: 20px;position: relative;padding: 5px}
+#content .subway ul li{margin-top: 20px; font-family: 'dotum',serif; font-size: 14px;color: #333; margin-left: 10px; line-height: 2em}
+
+#content .subway ul li:nth-of-type(1) span{color: #ea545d ; border: 2px solid #ea545d; padding: 5px;border-radius: 15px}
+#content .subway ul li:nth-of-type(2) span{color: #936fb1 ; border: 2px solid #936fb1;
+padding: 5px;border-radius: 15px}
+#content .subway ul li:nth-of-type(3) span{color: #c6b182 ; border: 2px solid #c6b182;
+padding: 5px; border-radius: 15px}
+
+
+
+#content .bus ul{margin-top: 20px;position: relative;padding: 30px}
+#content .bus ul li:nth-of-type(n+2){margin-top: 20px; font-family: 'dotum',sans-serif; font-size: 14px;color: #333; line-height: 2em}
+#content .bus ul li:nth-of-type(2){margin-top:30px}
+#content .bus ul li:nth-of-type(1){position: absolute; left:7px;top: 0; font-size: 30px; padding: 15px 25px;color: #0d8299}
+

@@ -1,0 +1,27 @@
+.visual{position: relative; overflow: hidden; margin-bottom: 50px}
+.visual p{position: absolute}
+.visual p:nth-of-type(1){font-family: 'Roboto',sans-serif; font-size: 45px; text-align: center; color: #fff; line-height: 1.5em; margin-left: -93px;margin-top: -50px;left: 50%; top:40% }
+.visual p:nth-of-type(2){font-family: 'Nanumgothic',serif; font-size:18px;font-weight: bold; text-align: center; color: #fff;margin:auto;margin-left: -100px;margin-top: -50px;left: 50%; top: 80%}
+
+
+
+#content .nature{margin-left: 5px; margin-right: 5px}
+#content .nature p:nth-of-type(1){font-family: 'Nanumgothic',sans-serif; font-size: 18px; text-align: left; font-weight: 700; line-height: 2em; margin-top: 30px}
+
+#content .nature p:nth-of-type(1):before{content: '01'; display: block;font-family: 'Nanumgothic',sans-serif; font-size: 50px; color:#0d8299; opacity: .8; position: relative; left: 0; top:50% ; margin-top:-5px}
+
+#content .nature p:nth-of-type(2){font-family:'Noto Sans KR', sans-serif; font-size: 14px; text-align: justify;
+line-height: 2em; margin: 20px 5px 30px 5px}
+
+
+#content .flower{margin-left: 5px; margin-right: 5px}
+#content .flower p:nth-of-type(1){font-family: 'Nanumgothic',sans-serif; font-size: 18px; text-align: left; font-weight: 700; line-height: 2em; margin-top: 30px}
+
+#content .flower p:nth-of-type(1):before{content: '02'; display: block;font-family: 'Nanumgothic',sans-serif; font-size: 50px; color:#0d8299; opacity: .8; position: relative; left: 0; top:50% ; margin-top:-5px}
+#content .flower p:nth-of-type(2){font-family:'Noto Sans KR', sans-serif; font-size: 14px; text-align: justify;
+line-height: 2em; margin: 20px 5px 0 5px}
+
+
+.text{position: fixed; right:0; top: 0;
+           font-size: 50px; z-index: 100}
+

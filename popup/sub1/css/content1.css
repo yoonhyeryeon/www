@@ -1,0 +1,118 @@
+/* 공원소개 */
+#content{width: 1200px; margin: 0 auto;position:relative}
+
+#content .title_area{}
+#content .title_area h2{font-family: 'Nanumgothic', serif; font-size: 60px; 
+    font-weight: 400; margin-top: 110px; margin-left: 415px}
+#content .title_area .lineMap{position: absolute;left:500px;top:130px}
+#content .title_area img{margin: 170px 0 60px 175px} 
+#content .title_area p{font-family: 'dotum',serif; font-size: 20px; text-align: center;
+                         line-height: 1.5em}
+#content .title_area p span{font-family: 'dotum',serif; 
+                               font-size: 20px ; font-weight: bold}
+#content .content_area .inform h3{font-family: 'Nanumgothic',serif; font-size: 30px;
+                        font-weight: normal; margin-top:150px;  margin-bottom:  60px; text-align: center}
+#content .content_area .inform ul{overflow: hidden}
+#content .content_area .inform ul li{float: left; width: 190px; height: 300px;
+ background: #0d8299; color: #fff}
+#content .content_area ul li:nth-of-type(1){margin-left: 130px; margin-right:55px}
+#content .content_area ul li:nth-of-type(3){margin-left: 55px; margin-right:55px}
+#content .content_area ul li:nth-of-type(4){margin-right:130px}
+#content .content_area ul li h4{font-family: 'Nanumgothic',serif; font-size: 18px;
+font-weight: 700; margin-top: 30px; margin-bottom: 20px;text-align: center}
+#content .content_area ul li p{font-family: 'dotum',serif; font-size: 14px;
+    text-align: center}
+
+#content .content_area ul li .parking{width: 120px; height: 30px; background: #fff;
+margin-left: 35px; border-radius: 0%; margin-top: 20px}
+#content .content_area ul li .parking p .parking_inform{display: block ;
+    font-family: 'Nanumgothic',serif; font-size: 13px; color:#000; padding: 5px}
+#content .content_area ul li .parking p .parking_inform:hover{font-weight:700; color:#0d8299 }
+
+#content .content_area ul li div{width: 140px ; height: 140px; background: #fff;
+border-radius: 50%; margin: 20px 25px}
+#content .content_area ul li div i{font-size: 70px; padding-top: 30px;
+padding-left: 40px; color: #000}
+
+#content .content_area .useage_time h3{font-family: 'Nanumgothic',serif; font-size: 30px;font-weight: normal; margin-top:150px;  margin-bottom:  60px; text-align: center}
+#content .content_area .useage_time ul{overflow: hidden}
+#content .content_area .useage_time ul li{float: left}
+
+#content .content_area .useage_time ul li:nth-of-type(1) a i{font-size: 100px;margin: 40px 40px}
+
+#content .content_area .useage_time ul li p{font-family: 'dotum',serif;
+font-size: 18px; text-align: left; line-height: 2em}
+
+#content .content_area .etiquette h3{font-family: 'Nanumgothic',serif; font-size: 30px;font-weight: normal; margin-top:150px;  margin-bottom:  60px; text-align: center}
+
+#content .content_area .etiquette ul{overflow: hidden}
+#content .content_area .etiquette ul li{float: left; width: 325px}
+#content .content_area .etiquette ul li:nth-of-type(1){margin-left: 50px; margin-right: 60px; margin-bottom: 100px}
+#content .content_area .etiquette ul li:nth-of-type(3){margin-left:50px}
+#content .content_area .etiquette ul li:nth-of-type(4){clear: both; 
+    margin-left: 50px;margin-right: 60px}
+#content .content_area .etiquette ul li:nth-of-type(6){margin-left: 50px}
+#content .content_area .etiquette ul li p{font-family: 'dotum',serif;
+font-size: 18px; line-height: 1.5em; text-align: center}
+#content .content_area .etiquette ul li p span{font-family: 'dotum',serif;
+font-size: 16px; line-height: 1.5em; text-align: center}
+#content .content_area .etiquette ul li:nth-of-type(2) p span{font-family: 'dotum',serif; font-size: 16px; line-height: 1.5em; text-align: center;
+color: #1f7d5c}
+#content .content_area .etiquette ul li i{font-size: 70px;margin-left: 140px;
+margin-bottom: 20px}
+
+#content .content_area .number h3{font-family: 'Nanumgothic',serif; font-size: 30px;font-weight: normal; margin-top:150px;  margin-bottom:  60px; text-align: center}
+#content .content_area .number table{margin:auto;width: 1000px}
+
+#content .content_area .number th{width: 25% ;font-size: 16px;
+font-family: 'Nanumgothic', serif;height: 30px;color: #fff;
+    background:#0d8299;font-weight: 400;border:1px solid #fff}
+
+#content .content_area .number th a{color: #fff; display: block;padding: 15px;}
+
+#content .content_area .number th a:hover{display:block; background:#69e0f7;color:#fff}
+#content .content_area .number table tr{margin:0 auto}
+#content .content_area .number table tbody tr td{background: #f7f7f7; font-family: 'dotum',serif;font-size: 16px;border-bottom: 1px solid #ccc;
+    text-align: center; width:1000px; margin-bottom: 20px; height: 55px}
+
+
+#content .content_area .caution h3{font-family: 'Nanumgothic',serif; font-size: 30px;font-weight: normal; margin-top:150px;  margin-bottom:  60px; text-align: center}
+
+#content .content_area .caution ul{width: 860px; height: 320px; border: 1px solid #e3e3e3; border-radius: 15px; margin-left: 190px; margin-bottom: 200px; overflow: hidden}
+
+#content .content_area .caution li:nth-of-type(1){float: left;margin: 95px 35px 0 40px}
+#content .content_area .caution li:nth-of-type(2){float: left} 
+#content .content_area .caution li p{font-family: 'dotum',serif;
+    font-size: 18px; line-height: 1.5em; text-align: left;
+    margin-top: 65px; color: #666}
+#content .content_area .caution li p span{font-family: 'dotum',serif;
+    font-size: 14px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

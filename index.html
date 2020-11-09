@@ -1,0 +1,363 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='keywords' content='공원소개, 올림픽공원, 체조경기장, 공연,행사'>
+    <meta name='description' content='서울올림픽을 기념해 조성된 올림픽공원에 대한 소개 사이트입니다.'>
+    <title>올림픽공원</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48bd633dbc.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+
+
+
+
+
+    <!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+
+<body>
+
+    <? include "common/main_head.html" ?>
+
+    <div class="visual">
+        <p class="park_name">OLYMPIC PARK</p>
+        <P class="park_intro">문화와 낭만이 흐르는 곳</P>
+        <div class="gallery">
+            <ul>
+                <li><img src="images/main11.jpg" alt=""></li>
+                <li><img src="images/main22.jpg" alt=""></li>
+                <li><img src="images/main33.jpg" alt=""></li>
+                <li><img src="images/main44.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="dock">
+            <span class="mbutton  btn1"></span>
+            <span class="mbutton  btn2"></span>
+            <span class="mbutton  btn3"></span>
+            <span class="mbutton  btn4"></span>
+
+            <span class="ps"></span>
+        </div>
+
+
+    </div>
+    <article id="content">
+        <h2 class="hidden">본문콘텐츠영역</h2>
+
+        <? include "../www/lib/func2.php"; ?>
+        <div class="park_news">
+            <h3>올림픽 공원 소식</h3>
+
+
+
+
+            <!--<ul>
+                          <li class="content">
+                               <span class="year">2020.5. <span class="date">30</span></span>
+                               <a class="effect_border" href="#"><img
+                               src="images/garden.jpg" alt=""></a>
+
+                               <a href="#">   
+                                    <dl>
+                                       <dt>수도권 지역 대상, 강화된 방역조치 시행 (5.29~6.14)</dt>
+                                       <dd>서울, 경기, 인천 주민분들 께서는 꼭! 지켜주세요! 수도권 지역 대상, 강화된 방역 조치 시행 (5.29~6.14)</dd>
+                                    </dl> 
+                                    
+                                </a>
+                           </li>
+                           <li class="content">
+                               <span class="year">2020.5.<span class="date">30</span></span>
+                               <a class="effect_border" href="#"><img
+                           src="images/c-virus.jpg" alt=""></a>
+                                <a href="#">
+                                   <dl>
+                                       <dt>수도권 지역 대상, 강화된 방역조치 시행 (5.29~6.14)</dt>
+                                       <dd>서울, 경기, 인천 주민분들 께서는 꼭! 지켜주세요! 수도권 지역 대상, 강화된 방역 조치 시행 (5.29~6.14)</dd>
+                                    </dl>  
+                                    
+                                </a>                             
+                           </li>
+                           <li class="content">
+                               <span class="year">2020.5.<span class="date">30</span></span>
+                               <a class="effect_border" href="#"><img
+                           src="images/c_virus2.jpg" alt=""></a>
+                               <a href="#">
+                                    <dl>
+                                       <dt>수도권 지역 대상, 강화된 방역조치 시행 (5.29~6.14)</dt>
+                                       <dd>서울, 경기, 인천 주민분들 께서는 꼭! 지켜주세요! 수도권 지역 대상, 강화된 방역 조치 시행 (5.29~6.14)</dd>
+                                    </dl>
+                                                               
+                                </a>
+                           </li>
+                         </ul> -->
+            <ul>
+                <? latest_article("news", 3, 15, 40); ?>
+            </ul>
+
+
+
+
+
+
+
+            <a class="shortcut" href="news/list.php">
+                <p>바로가기</p><i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+
+        </div>
+
+        <div class="park_perform">
+            <a href="perform/list.php">
+                <h3>공연.행사</h3>
+            </a>
+
+            <div class="calendar_bottom">
+
+                <ul>
+                    <li>
+                        <img src="images/mrt.jpg" alt="">
+                        <dl>
+                            <dt><em>기간</em></dt>
+                            <dd>2020.07.24~2020.08.09</dd>
+                            <dt><em>시간</em></dt>
+                            <dd>(금)19:30/(토),(일)14:00,19:00</dd>
+                        </dl>
+
+                    </li>
+                    <li>
+                        <img src="images/darin.jpg" alt="">
+                        <dl>
+                            <dt><em>기간</em></dt>
+                            <dd>2020.07.24~2020.08.09</dd>
+                            <dt><em>시간</em></dt>
+                            <dd>(금)19:30/(토),(일)14:00,19:00</dd>
+                        </dl>
+
+                    </li>
+                </ul>
+            </div>
+            <a class="btn_right" href="#javascript=void(0)">
+                <i class="fas fa-angle-right"></i></a>
+            <a class="btn_left" href="#javascript=void(0)">
+                <i class="fas fa-angle-left"></i></a>
+
+            <!--<div class="perform_short">
+                   <a href="#javascript=void(0)">
+                   
+                  <i class="fas fa-plus short"></i>
+                   </a>
+               </div>-->
+
+
+        </div>
+
+
+
+        <div class="park_inform">
+            <a href="sub1/sub1_1.html">
+                <h3>이용안내</h3>
+            </a>
+            <div class="circle"></div>
+            <ul>
+                <li>
+                    <img src="images/walk.png" alt="도보.자전거">
+                    <h4>도보.자전거</h4>
+                    <p>05:00 ~ 22:00 <br>(광장지역은 24:00)</p>
+                </li>
+                <li>
+                    <img src="images/incar.png" alt="차량출입">
+                    <h4>차량출입</h4>
+                    <p> 06:00 ~ 22:00</p>
+                </li>
+                <li>
+                    <img src="images/outcar.png" alt="차량출차">
+                    <h4>차량출차</h4>
+                    <p>동2문 - 00:00 ~ 24:00<br>북2문, 남2문 - 06:00 ~ 22:30</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="park_video">
+            <h3>공원영상</h3>
+            <div class="square_bar1"></div>
+            <div class="square_bar2"></div>
+            <div class="square_bar3"></div>
+
+            <ul class="video_left">
+                <li>
+                    <video poster="images/pi01.jpg" controls width="368">
+                        <source src="images/video1.mp4">
+                    </video>
+                </li>
+                <li>올림픽공원 스케이트장 개장식 홍보영상</li>
+            </ul>
+
+
+
+            <ul class="video_list">
+                <li>
+                    <a href="sub6/sub6_3.html">올림픽공원 스케이트<br><span>2019-04-01</span></a>
+                </li>
+                <!--                     <li>
+                         <a href="sub6/sub6_3.html">올림픽공원 스케이트장 개장식 홍보영상<br><span>2019-04-01</span></a>
+                     </li>-->
+                <li>
+                    <a href="sub6/sub6_3.html">올림픽공원 수영장<br><span>2019-04-01</span></a>
+                </li>
+                <li>
+                    <a href="sub6/sub6_3.html">올림픽공원 스케이트장 개장식<br><span>2019-04-01</span></a>
+                </li>
+                <!--                     <li>
+                        <a href="sub6/sub6_3.html">올림픽공원 스케이트장 개장식 홍보영상<br><span>2019-04-01</span></a>
+                     </li>-->
+                <li>
+                    <a class="more" href="sub6/sub6_3.html">&#43;더보기</a>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="park_guide">
+            <h3>공원가이드</h3>
+            <ul>
+                <li>
+                    <img class="guide_icon" src="images/building.png" alt="건물기관">
+                    <a href="sub1/sub1_3.html?a=1">
+                        <h4>건물기관</h4>
+                    </a>
+                    <a class="guide_arrow" href="sub1/sub1_3.html?a=1"><img src="images/arrow.png" alt="바로가기"></a>
+                </li>
+
+                <li>
+                    <img class="guide_icon" src="images/place.png" alt="지형및장소">
+                    <a href="sub1/sub1_3.html?a=2">
+                        <h4>지형 및 장소</h4>
+                    </a>
+                    <a class="guide_arrow" href="sub1/sub1_3.html?a=2"><img src="images/arrow.png" alt="바로가기"></a>
+                </li>
+                <li>
+                    <img class="guide_icon" src="images/convenience.png" alt="편의시설">
+                    <a href="sub1/sub1_3.html?a=3">
+                        <h4>편의시설</h4>
+                    </a>
+                    <a class="guide_arrow" href="sub1/sub1_3.html?a=3"><img src="images/arrow.png" alt="바로가기"></a>
+                </li>
+                <li>
+                    <img class="guide_icon" src="images/parking.png" alt="출입구및주차장">
+                    <a href="sub1/sub1_3.html?a=4">
+                        <h4>출입구 및 주차장</h4>
+                    </a>
+                    <a class="guide_arrow" href="sub1/sub1_3.html?a=4"><img src="images/arrow.png" alt="바로가기"></a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="park_bottom">
+            <ul>
+                <li class="sns">
+                    <dl>
+                        <dt>올림픽공원 #SNS</dt>
+                        <dd>각종 정보를 받아보세요</dd>
+                    </dl>
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-twitter-square"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+
+                    </ul>
+                </li>
+
+
+                <!--                   <li class="date">
+                        <dl>
+                          <dt>올림픽공원의 날씨</dt>
+                          <dd>2020-05-28
+                             <span><img src="images/sun.png" alt=""><strong>25&deg;C</strong></span>
+                          </dd>
+                       </dl>
+                   </li>
+                   <li id="weather"> </li>-->
+
+
+
+
+            </ul>
+            <ul class="bottom_sns">
+                <li>
+                    <a href="https://www.facebook.com/kspojoyolpark" target="_blank" title="페이스북"><span class="hidden">페이스북</span><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/enjoyolpark" target="_blank" title="트위터"><span class="hidden">트위터</span><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li class="bottom_insta">
+                    <a href="https://www.instagram.com/olympicpark/" target="_blank" title="인스타그램"><span class="hidden">인스타그램</span><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+    <? include "common/main_foot.html" ?>
+
+
+
+
+
+    <!--이 위치에 추가되는 스크립트를 연결하세요 -->
+    <script src="mainjs/move.js"></script>
+
+    <script src="mainjs/fullnav.js"></script>
+
+
+    <!-- 팝업공지영역 -->
+    <div id="showimage" style="z-index:40;position:absolute;width:322px;left:150px;top:200px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+
+        </script>
+        <div>
+            <img src="popup/popup.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+        </div>
+        <div style="font-size:12px;text-align:center;color:#666;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+            <a href="#" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

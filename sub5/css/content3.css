@@ -1,0 +1,149 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    text-align: center
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 500px;
+    top: 130px
+}
+
+#content .content_area {
+    margin-top: 300px;
+    position: relative;
+    margin-bottom: 170px
+}
+
+#content .content_area h3 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    margin-left: 15px
+}
+
+#content .content_area h3::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: #0d8299
+}
+
+#content .content_area p {
+    font-family: 'dotum', serif;
+    font-size: 18px;
+    color: #666;
+    margin-left: 30px;
+    margin-bottom: 40px
+}
+
+#content .content_area .museum_info {
+    width: 1000px;
+    margin: 100px auto
+}
+
+#content .content_area .museum_info h4 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 50px
+}
+
+#content .content_area .accordion span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d8299;
+    margin-right: 20px
+}
+
+#content .content_area .accordion .question dl {
+    font-family: 'Nanumgothic', serif;
+}
+
+#content .content_area .accordion .question dl .q {
+    border: 1px solid #ccc;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    transition: all .3s
+}
+
+#content .content_area .accordion .question dl .q:hover {
+    color: #fff;
+    background: #0d8299
+}
+
+#content .content_area .accordion .question dl .q:hover span {
+    color: #fff
+}
+
+#content .content_area .accordion .question dl .q .trigger {
+    padding: 20px;
+    display: block
+}
+
+#content .content_area .accordion .question dl .q .trigger:hover,
+#content .content_area .accordion .question dl .q .trigger:active,
+#content .content_area .accordion .question dl .q .trigger:focus {
+    color: #fff;
+    background: #0d8299
+}
+
+#content .content_area .accordion .question dl .q .trigger:hover,
+#content .content_area .accordion .question dl .q .trigger:active,
+#content .content_area .accordion .question dl .q .trigger:focus span {
+    color: #fff
+}
+
+#content .content_area .accordion .question dl .q em {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: -17px;
+    display: block;
+    font-size: 32px;
+    transform: rotate(180deg)
+}
+
+#content .content_area .accordion .question dl .answer {
+    display: none
+}
+
+#content .content_area .accordion .question dl .answer {
+    border: 1px solid #ccc;
+    padding: 20px
+}
+
+#content .content_area .accordion .question dl .answer p {
+    padding-top: 5px;
+    padding-left: 10px
+}
+
+#content .content_area .accordion .question dl .answer dl {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 2em
+}
+
+
+
+#content .content_area img {
+    margin-left: 100px
+}

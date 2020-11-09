@@ -1,0 +1,128 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative
+}
+
+#content .title_area {}
+
+#content .title_area h2 {
+    font-family: 'Nanumgothic', serif;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 110px;
+    margin-left: 415px
+}
+
+#content .title_area .lineMap {
+    position: absolute;
+    left: 480px;
+    top: 130px
+}
+
+#content .content_area .tabs {
+    margin-top: 170px;
+    position: relative
+}
+
+#content .content_area .tabs ul {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+    background: #0d8299
+}
+
+#content .content_area .tabs ul li h3 {
+    float: left;
+    width: 25%;
+    font-weight: normal
+}
+
+#content .content_area .tabs ul li h3 .tab {
+    display: block;
+    text-align: center;
+    font-family: 'Nanumgothic', serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    height: 25px
+}
+
+
+#content .content_area .tabs ul li .on {
+    background: #69e0f7;
+    color: #fff
+}
+
+#content .content_area .tabs ul:last-of-type {
+    width: 1300px;
+    height: 585px;
+    margin-top: 40px;
+    margin-bottom: 170px
+}
+
+#content .content_area .tabs ul:last-of-type .contlist {
+    border: 1px solid #ccc;
+    background: #fff;
+    display: none
+}
+
+#content .content_area .tabs ul:last-of-type .contlist:nth-child(1) {
+    display: block
+}
+
+#content .content_area ul:last-of-type dl {
+    float: right;
+    line-height: 2em;
+    column-count: 2
+}
+
+#content .content_area ul:last-of-type dl dt {
+    font-family: 'Nanumgothic', serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold
+}
+
+#content .content_area ul:last-of-type dl dt dd {
+    font-family: 'dotum', serif;
+    font-size: 14px
+}
+
+#content .content_area ul:last-of-type li:nth-of-type(1) dl {
+    column-gap: 55px;
+    margin-top: 35px;
+    margin-right: 50px
+}
+
+#content .content_area ul:last-of-type li:nth-of-type(2) dl {
+    margin-top: 35px;
+    margin-right: 50px;
+    column-gap: 100px
+}
+
+#content .content_area ul:last-of-type li:nth-of-type(3) dl {
+    margin-top: 35px;
+    margin-right: 20px;
+    column-gap: 55px
+}
+
+#content .content_area ul:last-of-type li:nth-of-type(4) dl {
+    margin-left: 50px;
+    column-gap: 30px;
+    margin-top: 35px
+}
+
+
+#content .content_area ul:last-of-type li:nth-of-type(3) dd span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #012e72;
+    position: absolute;
+    right: 30px;
+    bottom: 54px;
+    text-indent: -999px;
+    overflow: hidden
+}

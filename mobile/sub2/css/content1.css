@@ -1,0 +1,16 @@
+#content .sports img{margin: 10 auto}
+#content dl{margin-top: 30px}
+#content dt{font-family: 'Noto Sans KR',sans-serif; font-size: 18px;padding:10px}
+#content dt span{color: darksalmon}
+#content dd{font-family: 'dotum',sans-serif;font-size: 14px; padding: 10px;
+text-align: justify; line-height: 2em}
+
+#content section:nth-of-type(2) h3{font-family: 'Nanumgothic',sans-serif; font-size: 18px;margin-left: 10px; color: #333} 
+#content .sports_list .menu_depth{position: relative}
+#content .sports_list .menu_depth .depth1{padding-left:20%;padding-top: 5px;padding-bottom: 5px;border: 1px solid #0d8299; width:70%; margin:2px auto; border-radius: 5px;background:#0d8299}
+#content .sports_list .menu_depth .depth1 a{display: block;color: #fff;font-family: 'Noto Sans KR',sans-serif; font-weight: 500;padding-left:30%}
+#content .sports_list .answer{border: 1px solid #ccc; width: 90.5%;margin: 2px auto;display: none}
+#content .sports_list .answer li img{}
+#content .sports_list .answer li p{font-family: 'dotum',sans-serif; font-size:14px;
+line-height: 2em; padding: 10px; text-align: justify}
+
